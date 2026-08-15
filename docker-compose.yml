@@ -1,0 +1,28 @@
+services:
+  academic-cv:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: academic-cv-dev
+    ports:
+      - "1314:1313"
+    volumes:
+      # Mount content, config, layouts, assets for hot-reload
+      - ./content:/app/content
+      - ./config:/app/config
+      - ./layouts:/app/layouts
+      - ./assets:/app/assets
+      - ./data:/app/data
+      - ./static:/app/static
+      # Persist node_modules to avoid reinstalling on every run
+      - node_modules:/app/node_modules
+    environment:
+      # Disable fast render for cleaner debug output in terminal
+      HUGO_DISABLEFASTRENDER: "1"
+      # Ensure no Go dependency issues
+      CGO_ENABLED: "0"
+    working_dir: /app
+    # Remove explicit command to use the one from Dockerfile
+
+volumes:
+  node_modules:

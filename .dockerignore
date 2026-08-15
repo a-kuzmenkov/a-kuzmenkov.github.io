@@ -1,0 +1,32 @@
+# Git
+.git/
+.gitignore
+
+# Node modules (mounted via volume)
+node_modules/
+
+# Hugo public output (generated)
+public/
+resources/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Docker files (avoid recursive mounting)
+docker-compose.yml
+Dockerfile
+.dockerignore
+
+# Plans
+plans/
