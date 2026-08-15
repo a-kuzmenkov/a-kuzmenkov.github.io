@@ -4,14 +4,14 @@
 
 # Default language
 en:
-  locale: en-us
   contentDir: content/en
   title: Alexey Kuzmenkov
+  params:
+    locale: en-us
 
 # Uncomment the lines below to configure your website in a second language.
 ru:
-  locale: ru
   contentDir: content/ru
   title: Алексей Кузьменков
   params:
-    description: Site description in Russian
+    locale: ru
