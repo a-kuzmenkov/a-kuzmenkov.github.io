@@ -1,0 +1,7 @@
+{{- $seen := dict -}}
+{{- range $index, $item := .items }}
+  {{- if not (in $seen $item) }}
+    {{- $seen = $seen | merge (dict $item true) }}
+    {{- partial "functions/render_link" (dict "page" $.page "item" $item "index" $index) }}
+  {{- end }}
+{{- end }}
