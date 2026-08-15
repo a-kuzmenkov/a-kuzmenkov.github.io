@@ -1,0 +1,116 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Д-р Алекс Джонсон
+  given: Алекс
+  family: Джонсон
+  alternate: "" # Пример: 王伟
+  pronunciation: "" # Пример: Wáng Wěi
+  pronouns: он/его
+postnominals:
+  - PhD
+  - MIEEE
+status:
+  icon: "☕️"
+role: Ведущий научный сотрудник в области ИИ
+bio: |
+  Алекс Джонсон — ведущий научный сотрудник в области искусственного интеллекта в Meta AI. Его исследования
+  публиковались на ведущих конференциях, таких как NeurIPS и ICML, и имеют более
+  10 000 цитирований. Алекс увлечен расширением границ ИИ
+  и обеспечением его этичного развития.
+
+affiliations:
+  - name: Meta AI
+    url: https://ai.meta.com/
+
+links:
+  - icon: at-symbol
+    url: mailto:alex.johnson@example.com
+    label: Написать мне
+  - icon: brands/x
+    url: https://x.com/example
+  - icon: brands/github
+    url: https://github.com/example
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/example/
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=example
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0002-1825-0097
+
+interests:
+  - Большие языковые модели
+  - Компьютерное зрение
+  - Обучение с подкреплением
+  - Этика ИИ
+
+education:
+  - degree: PhD в области компьютерных наук
+    institution: Стэнфордский университет
+    start: 2015-09-01
+    end: 2019-06-30
+    summary: |
+      Диссертация по законам масштабирования нейронных языковых моделей. Опубликовано 5 статей в NeurIPS и ICML.
+    button:
+      text: Скачать диссертацию
+      url: /resume.pdf
+      icon: hero/arrow-down-tray
+  - degree: Магистр компьютерных наук
+    institution: Университет Карнеги — Меллона
+    start: 2013-09-01
+    end: 2015-05-31
+  - degree: Бакалавр компьютерных наук
+    institution: Массачусетский технологический институт (MIT)
+    start: 2009-09-01
+    end: 2013-05-31
+
+experience:
+  - role: Ведущий научный сотрудник в области ИИ
+    org: Meta AI
+    start: 2020-01-01
+    summary: |
+      Руководство исследованиями мультимодальных систем ИИ. Внес вклад в разработку Llama 2 и других open-source моделей.
+    button:
+      text: Смотреть портфолио
+      url: /
+      icon: hero/arrow-down-tray
+  - role: Стажер-исследователь в области ИИ
+    org: OpenAI
+    start: 2019-06-01
+    end: 2019-12-31
+    summary: |
+      Работа над масштабированием GPT-3. Соавтор статьи по инженерии промптов.
+
+skills:
+  - name: Технические навыки
+    items:
+      - label: Python
+        level: 5
+      - label: Машинное обучение
+        level: 5
+      - label: Облачные вычисления
+        level: 4
+  - name: Исследования и коммуникация
+    items:
+      - label: Академическое письмо
+        level: 5
+      - label: Выступления на конференциях
+        level: 4
+      - label: Написание грантовых заявок
+        level: 4
+
+languages:
+  - name: Английский
+    level: 5
+    label: Родной
+  - name: Испанский
+    level: 4
+    label: Свободный
+
+awards:
+  - title: Премия за лучшую статью
+    awarder: NeurIPS
+    date: "2022-12-01"
+    summary: Присуждена за новаторскую работу по эффективному обучению больших моделей.
+    icon: hero/trophy
