@@ -61,5 +61,8 @@ markup:
     lineNos: false
 security:
   _merge: deep
+  node:
+    permissions:
+      disable: true
 sitemap:
   _merge: deep
