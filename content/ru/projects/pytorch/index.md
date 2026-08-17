@@ -1,15 +1,15 @@
 ---
-title: PyTorch
+title: Национальная система мониторинга антибиотикорезистентности
 date: 2023-10-26
 links:
   - type: site
-    url: https://github.com/pytorch/pytorch
+    url: https://amrhub.ru/
 tags:
-  - Hugo
-  - HugoBlox
-  - Markdown
+  - Антимикробная резистентность
+  - Анализ данных
 ---
 
-PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.
+Интерактивная система, данные которой используются для управленческих решений,
+формирования клинических рекомендаций и разработки новых антимикробных препаратов.
 
 <!--more-->

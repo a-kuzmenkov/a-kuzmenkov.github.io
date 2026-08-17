@@ -1,15 +1,15 @@
 ---
-title: Pandas
+title: AMRhub
 date: 2023-10-26
 links:
   - type: site
-    url: https://github.com/pandas-dev/pandas
+    url: https://amrhub.ru/
 tags:
-  - Hugo
-  - HugoBlox
-  - Markdown
+  - Антимикробная резистентность
+  - Цифровое здравоохранение
 ---
 
-Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.
+Экосистема цифровых решений для мониторинга антимикробной резистентности, аналитики,
+поддержки клинических решений и обучения.
 
 <!--more-->

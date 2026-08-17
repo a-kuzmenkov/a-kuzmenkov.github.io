@@ -1,15 +1,15 @@
 ---
-title: scikit-learn
+title: Data Science в медицине
 date: 2023-10-26
 links:
   - type: site
-    url: https://github.com/scikit-learn/scikit-learn
+    url: https://amrhub.ru/
 tags:
-  - Hugo
-  - HugoBlox
-  - Markdown
+  - Образование
+  - Искусственный интеллект
 ---
 
-scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.
+Стратегический образовательный проект и программы дополнительного профессионального образования
+по анализу данных и искусственному интеллекту в медицине. Обучение прошли более 3000 студентов и ординаторов.
 
 <!--more-->
