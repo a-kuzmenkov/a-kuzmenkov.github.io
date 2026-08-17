@@ -19,12 +19,12 @@ hugoblox:
     # Schema.org type for structured data
     type: person # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: "Антимикробная резистентность, цифровое здравоохранение и Data Science в медицине"
+    tagline: "Клиническая фармакология · Микробиология · AMR · Медицинские технологии"
     # Site meta description for search engines and social sharing
     description: >-
-      Официальный профессиональный сайт Алексея Юрьевича Кузьменкова — доктора медицинских наук,
-      эксперта в области антимикробной резистентности, клинической фармакологии, анализа данных
-      и цифровых решений для здравоохранения.
+      Алексей Кузьменков — врач-исследователь, доктор медицинских наук, профессор и сооснователь
+      АБиоГрам и AMRhub. Клиническая фармакология, микробиология, антимикробная резистентность,
+      определение чувствительности микроорганизмов, диагностика и медицинские технологии.
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: ""
@@ -35,14 +35,14 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   theme:
     # Mode: 'light', 'dark', or 'system' (follows OS preference)
-    mode: system
+    mode: light
     # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
     pack: "default"
     # Optional: Override theme pack colors
     colors:
-      primary: "" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
-      secondary: ""
-      neutral: "" # Affects gray utilities (text-gray-*, bg-gray-*)
+      primary: "teal" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
+      secondary: "cyan"
+      neutral: "slate" # Affects gray utilities (text-gray-*, bg-gray-*)
     # Optional: Mode-specific color overrides
     colors_light: {}
     colors_dark: {}
@@ -62,8 +62,8 @@ hugoblox:
   # Font and text sizing
   # ────────────────────────────────────────────────────────────────────────────
   typography:
-    # Theme pack: name from data/fonts/
-    pack: "academic"
+    # Humanist sans-serif: contemporary, readable, and appropriate for medicine/science.
+    pack: "humanist"
 
   # ────────────────────────────────────────────────────────────────────────────
   # LAYOUT
@@ -71,7 +71,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   layout:
     # Border radius: 'none', 'sm', 'md', 'lg', or 'full'
-    radius: "md"
+    radius: "lg"
     # Spacing density: 'compact', 'comfortable', or 'spacious'
     spacing: "spacious"
     # Avatar shape in author profiles
@@ -88,11 +88,11 @@ hugoblox:
     # Stick to top on scroll
     sticky: true
     # Menu alignment
-    align: center # left | center | right
+    align: right # left | center | right
     # Feature toggles
-    search: true
-    theme_toggle: true
-    theme_picker: true
+    search: false
+    theme_toggle: false
+    theme_picker: false
     language_switcher: true
     # Call-to-action button
     cta:
@@ -244,7 +244,7 @@ hugoblox:
   locale:
     date_format: "Jan 2, 2006" # Go time format
     time_format: "3:04 PM"
-    address_format: ru
+    address_format: en-us
 
   # ────────────────────────────────────────────────────────────────────────────
   # SECURITY

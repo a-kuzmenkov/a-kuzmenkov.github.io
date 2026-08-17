@@ -1,7 +1,11 @@
 main:
-  - {name: Обо мне, url: /, weight: 10}
-  - {name: Результаты, url: /#impact, weight: 20}
-  - {name: Проекты, url: /#projects, weight: 30}
-  - {name: Книги, url: /#books, weight: 40}
-  - {name: Опыт, url: /#experience, weight: 50}
-  - {name: Контакты, url: /#contact, weight: 60}
+  - {name: Главная, pageRef: /, weight: 10}
+  - {name: Обо мне, pageRef: /about, weight: 20}
+  - {name: Направления, pageRef: /expertise, weight: 30}
+  - {name: Проекты, pageRef: /projects, weight: 40}
+  - {name: Исследования, pageRef: /research, weight: 50}
+  - {name: Публикации, pageRef: /publications, weight: 60}
+  - {name: Книги, pageRef: /books, weight: 70}
+  - {name: Выступления, pageRef: /speaking, weight: 80}
+  - {name: Биография, pageRef: /biography, weight: 90}
+  - {name: Контакты, pageRef: /contact, weight: 100}

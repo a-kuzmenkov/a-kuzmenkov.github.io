@@ -9,7 +9,7 @@ image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 
 cover:
-  image: "https://cdn.lifehacker.ru/wp-content/uploads/2019/07/1ACD610A-7B75-4999-8C5F-5669DAC94748_1563841368.jpeg"
+  image: "featured.jpg"
   position:
     x: 50
     y: 40

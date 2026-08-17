@@ -1,12 +1,16 @@
 ---
 title: Publications
-cms_exclude: true
-
-# View.
-view: card
-
-# Optional header image (relative to `static/media/` folder).
-banner:
-  caption: ''
-  image: ''
+summary: Selected scientific publications by Alexey Kuzmenkov.
+type: landing
+sections:
+  - block: collection
+    id: publications
+    content:
+      title: Selected Publications
+      text: Work in clinical pharmacology, AMR, AST, diagnostics, surveillance and biomedical data science.
+      filters:
+        folders: [publications]
+    design:
+      view: article-grid
+      columns: 2
 ---

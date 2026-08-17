@@ -12,7 +12,7 @@ tags:
 image:
   caption: 'Embed rich media such as videos and LaTeX math'
 cover:
-  image: "https://cdn.lifehacker.ru/wp-content/uploads/2019/07/1ACD610A-7B75-4999-8C5F-5669DAC94748_1563841368.jpeg"
+  image: "featured.jpg"
   position:
     x: 50
     y: 40
@@ -37,10 +37,10 @@ On this page, you'll find some examples of the types of technical content that c
 ## Citation
 
 Here's an example of citing a publication using the cite shortcode:
-{{< cite page="/ru/publications/preprint" view="citation" >}}
+[Посмотреть препринт](/publications/preprint/)
 
 You can also use the default view by omitting the view parameter:
-{{< cite page="/ru/publications/conference-paper" >}}
+[Посмотреть материал конференции](/publications/conference-paper/)
 
 ## Video
 
