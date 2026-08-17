@@ -1,6 +1,6 @@
 # Git
-.git/
-.gitignore
+# .git/
+# .gitignore
 
 # Node modules (mounted via volume)
 node_modules/

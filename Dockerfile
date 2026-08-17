@@ -1,10 +1,10 @@
 # Multi-stage build for Hugo Blox development environment
-FROM node:20-bookworm
+FROM node:22-bookworm
 
 # Install Hugo (extended version required for Sass/SCSS) and Go directly without apt-get update
 RUN apt-get update && apt-get install -y --no-install-recommends curl tar wget git && \
-    # Install Hugo 0.165.0 to match the project's expected version
-    curl -L https://github.com/gohugoio/hugo/releases/download/v0.165.0/hugo_extended_0.165.0_linux-amd64.tar.gz | tar xz -C /usr/local/bin && \
+    # Install Hugo 0.162.0 to match the project's expected version (as specified in hugoblox.yaml)
+    curl -L https://github.com/gohugoio/hugo/releases/download/v0.162.0/hugo_extended_0.162.0_linux-amd64.tar.gz | tar xz -C /usr/local/bin && \
     # Install Go 1.21 (needed for module resolution)
     wget -O /tmp/go1.21.0.linux-amd64.tar.gz https://go.dev/dl/go1.21.0.linux-amd64.tar.gz && \
     tar -xzf /tmp/go1.21.0.linux-amd64.tar.gz -C /usr/local && \
@@ -25,8 +25,9 @@ WORKDIR /app
 # Copy project files first (before installing dependencies)
 COPY . .
 
-# Install frontend dependencies
-RUN pnpm install --frozen-lockfile
+# Install frontend dependencies with specific node version to avoid module issues
+RUN npm config set engine-strict true && \
+    pnpm install --frozen-lockfile
 
 # Expose Hugo dev server port
 EXPOSE 1313
