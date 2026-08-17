@@ -1,4 +1,4 @@
-# How to run 
+# How to run
 
 ## First run after clone
 
@@ -64,3 +64,27 @@ docker compose exec academic-cv pnpm add <package-name>
 - **Dev server flag**: `--disableFastRender` for full rebuilds during development
 - **Port**: 1313 (mapped to host)
 - **Debug output**: `HUGO_DISABLEFASTRENDER=1` ensures complete build logs
+
+## Production mode with Docker
+
+### Building the production image
+
+To build the optimized production image:
+
+```bash
+# Build the production image
+docker build -f Dockerfile.prod -t academic-cv-production .
+```
+
+### Running in production
+
+```bash
+# Run with docker-compose
+docker-compose -f docker-compose.prod.yml up -d
+```
+
+The production version will be accessible on port 80 of your host machine. The production image includes:
+- Optimized Hugo build with minification
+- Nginx server with security headers and gzip compression
+- Proper caching strategies for static assets
+- Health checks for monitoring

@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  academic-cv-prod:
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+    container_name: academic-cv-production
+    ports:
+      - "1315:80"
+    environment:
+      # Production environment variables
+      HUGO_ENVIRONMENT: production
+      NODE_ENV: production
+    restart: unless-stopped
+    networks:
+      - web-network
+
+networks:
+  web-network:
+    driver: bridge
