@@ -2,8 +2,8 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Алексей Кузьменков
-  given: Алексей
+  display: Алексей Юрьевич Кузьменков
+  given: Алексей Юрьевич
   family: Кузьменков
 postnominals: [MD, PhD, DSc]
 role: Учёный · Scientific Founder · Медицинские технологии

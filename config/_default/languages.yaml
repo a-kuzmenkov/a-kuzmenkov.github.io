@@ -12,6 +12,6 @@ en:
 # Uncomment the lines below to configure your website in a second language.
 ru:
   contentDir: content/ru
-  title: Алексей Кузьменков
+  title: Алексей Юрьевич Кузьменков
   params:
     locale: ru-ru

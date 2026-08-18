@@ -3,8 +3,5 @@ main:
   - {name: Обо мне, pageRef: /about, weight: 20}
   - {name: Направления, pageRef: /expertise, weight: 30}
   - {name: Проекты, pageRef: /projects, weight: 40}
-  - {name: Исследования, pageRef: /research, weight: 50}
-  - {name: Публикации, pageRef: /publications, weight: 60}
-  - {name: Книги, pageRef: /books, weight: 70}
-  - {name: Выступления, pageRef: /speaking, weight: 80}
+  - {name: Научная работа, pageRef: /research, weight: 50}
   - {name: Контакты, pageRef: /contact, weight: 100}

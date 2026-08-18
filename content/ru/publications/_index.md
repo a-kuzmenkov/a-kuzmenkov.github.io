@@ -1,6 +1,7 @@
 ---
 title: Публикации
-summary: Избранные научные публикации Алексея Кузьменкова.
+draft: true
+summary: Избранные научные публикации Алексея Юрьевича Кузьменкова.
 type: landing
 sections:
   - block: collection

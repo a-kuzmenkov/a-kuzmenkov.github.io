@@ -37,7 +37,7 @@ sections:
         </div>
 
         {{< button url="https://abiogram.ru/" text="Перейти на сайт АБиоГрам" icon="arrow-top-right-on-square" new_tab="true" />}}
-    design: {columns: '2'}
+    design: {columns: '1'}
 
   - block: markdown
     id: amrhub
@@ -59,5 +59,5 @@ sections:
         </div>
 
         {{< button url="https://amrhub.ru/" text="Перейти на AMRhub" icon="arrow-top-right-on-square" new_tab="true" />}}
-    design: {columns: '2'}
+    design: {columns: '1'}
 ---

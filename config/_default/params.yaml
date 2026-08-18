@@ -13,7 +13,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Алексей Кузьменков"
+    name: "Алексей Юрьевич Кузьменков"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: ""
     # Schema.org type for structured data
@@ -22,7 +22,7 @@ hugoblox:
     tagline: "Клиническая фармакология · Микробиология · AMR · Медицинские технологии"
     # Site meta description for search engines and social sharing
     description: >-
-      Алексей Кузьменков — врач-исследователь, доктор медицинских наук, профессор и сооснователь
+      Алексей Юрьевич Кузьменков — врач-исследователь, доктор медицинских наук, профессор и сооснователь
       АБиоГрам и AMRhub. Клиническая фармакология, микробиология, антимикробная резистентность,
       определение чувствительности микроорганизмов, диагностика и медицинские технологии.
     # Social accounts (used for meta tags like Twitter Cards)
