@@ -161,7 +161,11 @@ body {
 /* Give paired headings and descriptions the feel of restrained editorial cards. */
 #directions .prose h3,
 #research .prose h3,
-#books .prose h3 {
+#books .prose h3,
+#speaking .prose h3,
+#trajectory .prose h3,
+#project-map .prose h3,
+#collaboration .prose h3 {
   margin: 2rem 0 0;
   padding: 1.4rem 1.6rem 0.5rem;
   border: 1px solid var(--ak-line);
@@ -173,7 +177,11 @@ body {
 
 #directions .prose h3 + p,
 #research .prose h3 + p,
-#books .prose h3 + p {
+#books .prose h3 + p,
+#speaking .prose h3 + p,
+#trajectory .prose h3 + p,
+#project-map .prose h3 + p,
+#collaboration .prose h3 + p {
   margin: 0;
   padding: 0 1.6rem 1.5rem;
   border: 1px solid var(--ak-line);
@@ -183,11 +191,170 @@ body {
   box-shadow: var(--ak-shadow);
 }
 
+#project-map { background: linear-gradient(135deg, #edf8f6, #fbfcfc); }
+#project-map .prose > p:last-child {
+  max-width: 900px;
+  margin-top: 2.5rem;
+  color: var(--ak-ink);
+}
+
+#abiogram,
+#amrhub { scroll-margin-top: 72px; }
+
+#abiogram .prose > p:first-child,
+#amrhub .prose > p:first-child {
+  color: var(--ak-teal-dark);
+  font-size: 0.88rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+#amrhub .prose > p:nth-of-type(3) {
+  padding: 1rem 1.2rem;
+  border-radius: 14px;
+  background: var(--ak-navy);
+  color: rgba(255,255,255,.82);
+}
+#amrhub .prose > p:nth-of-type(3) strong { color: #69d8cd; }
+
+.ak-card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin: 2rem 0 1.5rem;
+}
+
+.ak-card-grid article {
+  min-width: 0;
+  padding: 1.5rem;
+  border: 1px solid var(--ak-line);
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: var(--ak-shadow);
+}
+
+.ak-card-grid article > span {
+  color: var(--ak-teal);
+  font-size: 0.76rem;
+  font-weight: 750;
+  letter-spacing: 0.12em;
+}
+
+.ak-card-grid article h3 {
+  margin: 0.65rem 0 0.7rem !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  font-size: 1.12rem;
+}
+
+.ak-card-grid article p {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.ak-expertise-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.ak-card-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 12px;
+  background: var(--ak-mist);
+  color: var(--ak-teal);
+}
+.ak-card-icon svg { width: 1.35rem; height: 1.35rem; }
+
+.ak-trajectory-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin: 2rem 0 1.5rem;
+}
+
+.ak-trajectory-grid article {
+  padding: 1.6rem;
+  border: 1px solid var(--ak-line);
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: var(--ak-shadow);
+}
+
+.ak-trajectory-grid article > span {
+  color: var(--ak-teal);
+  font-size: 0.76rem;
+  font-weight: 750;
+  letter-spacing: 0.12em;
+}
+
+.ak-trajectory-grid article h3 {
+  margin: 0.65rem 0 0.7rem !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  font-size: 1.18rem;
+}
+
+.ak-trajectory-grid article p {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Readable editorial lists across inner pages. */
+.hbb-section .prose ul,
+.hbb-section .prose ol {
+  margin: 1.5rem 0 2rem;
+  padding: 0;
+  list-style: none;
+}
+
+.hbb-section .prose li {
+  position: relative;
+  margin: 0;
+  padding: 0.85rem 0 0.85rem 2rem;
+  border-bottom: 1px solid var(--ak-line);
+  color: var(--ak-muted);
+}
+
+.hbb-section .prose li:first-child { border-top: 1px solid var(--ak-line); }
+
+.hbb-section .prose ul > li::before {
+  content: "";
+  position: absolute;
+  top: 1.45rem;
+  left: 0.35rem;
+  width: 0.48rem;
+  height: 0.48rem;
+  border-radius: 50%;
+  background: var(--ak-teal);
+  box-shadow: 0 0 0 5px rgba(8, 127, 117, 0.1);
+}
+
+.hbb-section .prose ol { counter-reset: ak-list; }
+.hbb-section .prose ol > li { counter-increment: ak-list; }
+.hbb-section .prose ol > li::before {
+  content: counter(ak-list, decimal-leading-zero);
+  position: absolute;
+  top: 0.95rem;
+  left: 0;
+  color: var(--ak-teal);
+  font-size: 0.78rem;
+  font-weight: 750;
+  letter-spacing: 0.04em;
+}
+
 /* Separate the two initiatives without turning them into loud promo panels. */
 #projects .prose h2 {
-  margin-top: 3.5rem;
-  padding-top: 2rem;
-  border-top: 1px solid var(--ak-line);
+  margin-top: 2.5rem;
+  padding-top: 0;
+  border-top: 0;
   color: var(--ak-teal-dark);
 }
 #projects .prose h2:first-child { margin-top: 0; padding-top: 0; border: 0; }
@@ -211,6 +378,7 @@ body {
 @media (max-width: 1024px) {
   #site-header nav a { font-size: 0.8rem; }
   #home::after { opacity: 0.45; right: -12vw; }
+  .ak-expertise-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 @media (max-width: 768px) {
@@ -229,6 +397,9 @@ body {
   #home .prose > p { max-width: 100%; }
   #home .prose > .text-left { margin-top: 0.8rem; }
   #home .prose > .text-left a { padding: 0.68rem 0.9rem; font-size: 0.88rem; }
+  .ak-trajectory-grid,
+  .ak-card-grid,
+  .ak-expertise-grid { grid-template-columns: 1fr; }
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -7,5 +7,4 @@ main:
   - {name: Публикации, pageRef: /publications, weight: 60}
   - {name: Книги, pageRef: /books, weight: 70}
   - {name: Выступления, pageRef: /speaking, weight: 80}
-  - {name: Биография, pageRef: /biography, weight: 90}
   - {name: Контакты, pageRef: /contact, weight: 100}
