@@ -14,7 +14,7 @@ address:
   postcode: '94305'
   country: United States
 
-summary: Discover how to create stunning, interactive presentations using simple Markdown — no PowerPoint, Keynote, or vendor lock-in required.
+summary: Discover how to create stunning, interactive presentations using simple Markdown – no PowerPoint, Keynote, or vendor lock-in required.
 abstract: |
   Join us to explore HugoBlox's revolutionary Markdown-based slide system. Create beautiful presentations with code syntax highlighting, math equations, animations, and dual-column layouts. Edit your slides in any text editor, version control them with Git, and present them anywhere with just a browser. Experience true presentation freedom.
 
@@ -88,10 +88,10 @@ projects: []
 
 ### 🎨 Professional Design, Zero Effort
 
-- **15+ Built-in Themes** — Black, white, sky, league, and more
-- **Syntax Highlighting** — Beautiful code blocks with 50+ languages
-- **Math Support** — LaTeX equations render perfectly: $E = mc^2$
-- **Responsive** — Looks great on any screen size
+- **15+ Built-in Themes** – Black, white, sky, league, and more
+- **Syntax Highlighting** – Beautiful code blocks with 50+ languages
+- **Math Support** – LaTeX equations render perfectly: $E = mc^2$
+- **Responsive** – Looks great on any screen size
 
 ### 📝 Write in Plain Text
 
@@ -116,11 +116,11 @@ That's it! No complex UI, no formatting headaches.
 
 > [!IMPORTANT] **Zero Lock-In**
 > Your slides are just Markdown files. Edit them in:
-> - **Ownable CMS** — Visual editing with live preview
-> - **VS Code** — With Markdown extensions
-> - **Obsidian** — Note-taking app that speaks Markdown
-> - **Typora** — Minimal distraction writing
-> - **Any text editor** — Even Notepad works!
+> - **Ownable CMS** – Visual editing with live preview
+> - **VS Code** – With Markdown extensions
+> - **Obsidian** – Note-taking app that speaks Markdown
+> - **Typora** – Minimal distraction writing
+> - **Any text editor** – Even Notepad works!
 
 {{< button url="https://docs.hugoblox.com/guides/studio/" text="Try Ownable CMS" icon="paint-brush" style="secondary" size="md" new_tab="true" rounded="lg" />}}
 
@@ -209,24 +209,24 @@ Your slides are automatically:
 
 > [!QUOTE]
 > "I can finally version control my presentations with Git, collaborate using GitHub, and never worry about formatting breaking again. Game changer for reproducible research!"
-> — *Dr. Xin Liu, MIT*
+> – *Dr. Xin Liu, MIT*
 
 ### Perfect for Research
 
-- **Version Control** — Track every change with Git
-- **Collaboration** — Use GitHub pull requests for slide reviews
-- **Reproducibility** — Slides are plain text, commit them with your code
-- **Open Science** — Share presentations on GitHub, no barriers
-- **Citations** — Include BibTeX references easily
-- **Jupyter Integration** — Embed notebooks and visualizations
+- **Version Control** – Track every change with Git
+- **Collaboration** – Use GitHub pull requests for slide reviews
+- **Reproducibility** – Slides are plain text, commit them with your code
+- **Open Science** – Share presentations on GitHub, no barriers
+- **Citations** – Include BibTeX references easily
+- **Jupyter Integration** – Embed notebooks and visualizations
 
 ### Perfect for Teaching
 
-- **Reusable Content** — Mix and match slides across courses
-- **Student Contributions** — Students can submit slide PRs
-- **Live Coding** — Syntax highlighting for all languages
-- **Interactive Examples** — Embed interactive visualizations
-- **Accessible** — Keyboard navigation, screen reader friendly
+- **Reusable Content** – Mix and match slides across courses
+- **Student Contributions** – Students can submit slide PRs
+- **Live Coding** – Syntax highlighting for all languages
+- **Interactive Examples** – Embed interactive visualizations
+- **Accessible** – Keyboard navigation, screen reader friendly
 
 ---
 
@@ -402,7 +402,7 @@ Each lecture gets its own slide deck, all version controlled, all editable by st
 ### Tips & Tricks
 
 > [!TIP] **Pro Tips for Better Presentations**
-> 1. Keep slides simple — one idea per slide
+> 1. Keep slides simple – one idea per slide
 > 2. Use dual columns for comparisons
 > 3. Add speaker notes with `Note:` prefix
 > 4. Test presenter view before your talk

@@ -16,7 +16,7 @@ publishDate: "2017-01-01T00:00:00Z"
 # Enter a publication type from the CSL standard.
 publication_types: ["article-journal"]
 
-# Publication metadata — structured fields used by citation styles and BibTeX export.
+# Publication metadata – structured fields used by citation styles and BibTeX export.
 publication:
   name: "Journal of Source Themes"
   volume: 1

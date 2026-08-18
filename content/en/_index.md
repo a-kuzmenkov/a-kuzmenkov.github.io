@@ -1,5 +1,5 @@
 ---
-title: 'Alexey Kuzmenkov — Clinical Pharmacology, AMR, AST & Medical Technology'
+title: 'Alexey Kuzmenkov – Clinical Pharmacology, AMR, AST & Medical Technology'
 summary: 'Physician-scientist, Professor and scientific founder working in clinical pharmacology, microbiology, antimicrobial resistance and medical technology.'
 date: 2026-08-17
 type: landing

@@ -23,7 +23,7 @@ publishDate: '2017-01-01T00:00:00Z'
 # Enter a publication type from the CSL standard.
 publication_types: ['paper-conference']
 
-# Publication metadata — structured fields used by citation styles and BibTeX export.
+# Publication metadata – structured fields used by citation styles and BibTeX export.
 publication:
   name: "Proceedings of the HugoBlox Kit Conference"
   short_name: "ICW"

@@ -59,7 +59,7 @@ Below is a live example of a notebook rendered right here in this post. Notice h
 3. **Customize.** You can hide code cells for non-technical audiences (`show_code=false`) or just show the output (`show_outputs=true`).
 
 > [!IMPORTANT]
-> Hugo Blox respects your privacy. Notebook rendering happens statically at build time—no third-party services required.
+> Hugo Blox respects your privacy. Notebook rendering happens statically at build time–no third-party services required.
 
 ## Next steps
 
