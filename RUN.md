@@ -27,7 +27,7 @@ docker compose up -d
 docker compose down
 ```
 
-After starting, open **http://localhost:1313** in your browser.
+After starting, open **http://localhost:1314/academic-cv/** in your browser.
 
 ### Hot-reload support
 
@@ -62,7 +62,7 @@ docker compose exec academic-cv pnpm add <package-name>
 
 - **Hugo version**: 0.162.0 (extended)
 - **Dev server flag**: `--disableFastRender` for full rebuilds during development
-- **Port**: 1313 (mapped to host)
+- **Port**: container port 1313 mapped to host port 1314
 - **Debug output**: `HUGO_DISABLEFASTRENDER=1` ensures complete build logs
 
 ## Production mode with Docker

@@ -30,7 +30,7 @@ sections:
       title: AMRhub
       subtitle: Science · Education · Community
       text: |-
-        **Co-Founder**
+        **Founder**
 
         AMRhub is an independent public ecosystem of scientific, digital and educational projects in antimicrobial therapy and resistance.
 

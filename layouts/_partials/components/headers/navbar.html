@@ -205,7 +205,20 @@
       {{ if .IsTranslated | and $show_translations }}
       <div class="pl-1 mr-5 text-[var(--hb-color-header-fg)] hover:text-primary-500
             [&.active]:font-bold [&.active]:text-primary-500">
-        {{- partial "components/language-chooser.html" (dict "page" .) -}}
+        {{- range .Translations -}}
+          <a
+            href="{{ .RelPermalink }}"
+            class="ak-language-switcher"
+            lang="{{ .Language.Lang }}"
+            hreflang="{{ .Language.Lang }}"
+            aria-label="{{ if eq .Language.Lang "ru" }}Переключить на русский язык{{ else }}Switch to English{{ end }}"
+          >
+            <svg aria-hidden="true" height="18" viewBox="0 0 24 24">
+              <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Zm0 0c2.5 0 4.5-4 4.5-9S14.5 3 12 3 7.5 7 7.5 12s2 9 4.5 9ZM3.3 9h17.4M3.3 15h17.4"/>
+            </svg>
+            <span>{{ upper .Language.Lang }}</span>
+          </a>
+        {{- end -}}
       </div>
       {{ end }}
 

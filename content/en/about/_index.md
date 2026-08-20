@@ -9,20 +9,47 @@ sections:
       title: About
       subtitle: Science · Medicine · Technology
       text: |-
-        I am a physician-scientist and scientific entrepreneur. For more than ten years, I have researched and developed technologies at the intersection of clinical pharmacology, microbiology, antimicrobial resistance, data analysis and information technology.
+        I am a physician-scientist, Doctor of Medical Sciences and scientific entrepreneur working across **clinical pharmacology, microbiology, antimicrobial resistance and medical technology**.
 
-        My work focuses on the complete pathway from obtaining a microbiological result to interpreting it and applying it in a clinical decision.
-
-        At ABioGram, as Co-Founder and Chief Science and Innovation Officer, I lead scientific and technology strategy and R&D. In parallel, I continue my academic research and contribute to the independent public ecosystem AMRhub.
-
-        **My central professional interest is translating scientific knowledge about microorganisms, antimicrobial agents and resistance into technologies that can improve diagnostics and healthcare decision-making.**
+        Today, I combine three professional roles: shaping scientific and technology strategy at **ABioGram**, leading strategic development at the **Institute of Antimicrobial Chemotherapy**, and teaching microbiology at **Smolensk State Medical University**.
+    design: {columns: '1'}
+  - block: markdown
+    id: about-now
+    content:
+      title: What I do today
+      text: |-
+        <div class="ak-card-grid ak-about-grid ak-about-grid--current">
+          <article><span>SCIENCE</span><h3>Research</h3><p>I design research programmes, work with microbiological data and build the evidence base for medical solutions.</p></article>
+          <article><span>TECHNOLOGY</span><h3>Products</h3><p>I contribute to diagnostic technologies, expert algorithms and digital services for healthcare.</p></article>
+          <article><span>PEOPLE</span><h3>Teams and education</h3><p>I lead multidisciplinary R&D teams, teach and support the development of early-career specialists.</p></article>
+        </div>
+    design: {columns: '1'}
+  - block: markdown
+    id: about-initiatives
+    content:
+      title: Where I work and what I build
+      text: |-
+        <div class="ak-card-grid ak-about-grid ak-about-grid--organisations">
+          <article><span>COMPANY</span><h3>ABioGram</h3><p>Co-Founder and Chief Science and Innovation Officer, responsible for scientific and technology strategy, R&D, new products and their evidence base.</p><p><a href="../projects/#abiogram">Learn more →</a></p></article>
+          <article><span>ECOSYSTEM</span><h3>AMRhub</h3><p>Founder of an independent public scientific and educational ecosystem focused on antimicrobial therapy and resistance.</p><p><a href="../projects/#amrhub">Learn more →</a></p></article>
+          <article><span>RESEARCH INSTITUTE</span><h3>Institute of Antimicrobial Chemotherapy</h3><p>I lead strategic development at the intersection of healthcare, research and information technology.</p></article>
+          <article><span>UNIVERSITY</span><h3>Smolensk State Medical University</h3><p>As Professor of Microbiology, I teach and contribute to scientific and educational programmes.</p></article>
+        </div>
     design: {columns: '1'}
   - block: resume-experience
-    id: experience
+    id: about-resume
     content:
-      title: Professional Experience
       username: me
     design:
       date_format: '2006'
       is_education_first: false
+  - block: markdown
+    id: about-next
+    content:
+      title: Explore further
+      text: |-
+        [Research](../research/) · [Projects](../projects/) · [Short biography for media and event organisers](../biography/)
+
+        [Get in touch →](../contact/)
+    design: {columns: '1'}
 ---

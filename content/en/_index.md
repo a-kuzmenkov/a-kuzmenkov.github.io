@@ -14,7 +14,7 @@ sections:
 
         Physician-scientist, Doctor of Medical Sciences and Professor.
 
-        Co-Founder of **ABioGram** and **AMRhub**.
+        Co-Founder of **ABioGram** and Founder of **AMRhub**.
 
         [About](about/) · [Projects](projects/) · [Research](research/) · [Contact](contact/)
     design:
@@ -36,17 +36,17 @@ sections:
   - block: markdown
     id: projects
     content:
-      title: Two Independent Initiatives
+      title: Key Projects
       text: |-
         ## ABioGram
-        **AMR Diagnostics & Intelligence**
+        **Medical technology company**
 
-        Scientific and innovation strategy, diagnostic technologies, expert algorithms, data quality and R&D.
+        Diagnostic and digital solutions for microbiology, antimicrobial susceptibility testing and antimicrobial resistance data analysis.
 
         ## AMRhub
-        **Science · Education · Community**
+        **Public scientific and educational ecosystem**
 
-        A public ecosystem of scientific, digital and educational projects in antimicrobial therapy and resistance.
+        Scientific and educational projects, open digital tools and a professional community focused on antimicrobial therapy and resistance.
 
         [Explore Projects →](projects/)
     design: {columns: '2'}
@@ -55,9 +55,14 @@ sections:
     content:
       title: Impact
       text: |-
-        **10+ years** in medical and technology R&D · **100+** publications · **17** patents and other IP results
-
-        **200,000+** AMRhub product users in 2025 · **300+** healthcare organizations · **3,000+** students and residents trained
+        <div class="ak-impact-grid">
+          <div><strong>10+ years</strong><span>of research and development in medicine and technology</span></div>
+          <div><strong>100+</strong><span>scientific, educational and methodological works</span></div>
+          <div><strong>17</strong><span>patents and other intellectual property results</span></div>
+          <div><strong>200,000+</strong><span>AMRhub product users in 2025</span></div>
+          <div><strong>300+</strong><span>healthcare organizations</span></div>
+          <div><strong>3,000+</strong><span>students and residents trained</span></div>
+        </div>
     design: {columns: '1'}
   - block: markdown
     id: selected

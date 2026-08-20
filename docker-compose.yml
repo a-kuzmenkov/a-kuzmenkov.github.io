@@ -17,13 +17,30 @@ services:
       - ./static:/app/static
       # Persist node_modules to avoid reinstalling on every run
       - node_modules:/app/node_modules
+      # Persist downloaded Hugo/Go modules across container recreations
+      - hugo_cache:/root/.cache/hugo_cache
     environment:
       # Disable fast render for cleaner debug output in terminal
       HUGO_DISABLEFASTRENDER: "1"
       # Ensure no Go dependency issues
       CGO_ENABLED: "0"
     working_dir: /app
-    # Remove explicit command to use the one from Dockerfile
+    # Use the host-facing URL when Hugo generates absolute language links.
+    command:
+      - hugo
+      - server
+      - --ignoreVendorPaths
+      - --disableFastRender
+      - --bind
+      - 0.0.0.0
+      - --port
+      - "1313"
+      - --baseURL
+      - http://localhost:1314/academic-cv/
+      - --noHTTPCache
+      - --minify
+      - --enableGitInfo
 
 volumes:
   node_modules:
+  hugo_cache:

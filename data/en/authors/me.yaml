@@ -33,6 +33,47 @@ experience:
   - role: Professor of Microbiology
     org: Smolensk State Medical University
     start: 2023-01-01
+  - role: Head of the Priority 2030 Programme Office
+    org: Smolensk State Medical University
+    start: 2023-01-01
+    end: 2024-12-31
+  - role: Associate Professor of Microbiology
+    org: Smolensk State Medical University
+    start: 2020-01-01
+    end: 2023-12-31
+  - role: Research Coordinator and Researcher
+    org: Interregional Association for Clinical Microbiology and Antimicrobial Chemotherapy
+    start: 2017-01-01
+    end: 2019-12-31
+education:
+  - degree: Master of Business Administration (MBA)
+    institution: Institute of Business Studies, RANEPA
+    start: 2024-01-01
+    end: 2026-12-31
+  - degree: Professional Diploma in Project Management
+    institution: HSE University
+    start: 2024-01-01
+    end: 2025-12-31
+  - degree: Doctoral Studies in Clinical Medicine, Pharmacology and Clinical Pharmacology
+    institution: Smolensk State Medical University
+    start: 2020-01-01
+    end: 2022-12-31
+  - degree: Professional Diploma in Information Systems and Programming
+    institution: Plekhanov Russian University of Economics
+    start: 2022-01-01
+    end: 2022-12-31
+  - degree: Postgraduate Studies in Fundamental Medicine and Microbiology
+    institution: Smolensk State Medical University
+    start: 2017-01-01
+    end: 2020-12-31
+  - degree: Residency in Surgery
+    institution: Smolensk State Medical University
+    start: 2015-01-01
+    end: 2017-12-31
+  - degree: Medical Degree with Honours
+    institution: Smolensk State Medical University
+    start: 2009-01-01
+    end: 2015-12-31
 languages:
   - {name: Russian, level: 5, label: Native}
   - {name: English, level: 4, label: Professional working proficiency}
