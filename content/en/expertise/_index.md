@@ -1,30 +1,45 @@
 ---
 title: Expertise
-summary: Clinical pharmacology, microbiology, AMR, AST, diagnostics and biomedical data science.
+summary: Clinical pharmacology, microbiology, antimicrobial resistance, susceptibility testing, diagnostic technologies and biomedical data science.
 type: landing
 sections:
   - block: markdown
     id: directions
     content:
       title: Areas of Expertise
-      subtitle: Clinical Pharmacology + Microbiology → AMR & AST → Diagnostics, Data & Medical Technology
+      subtitle: From antimicrobial therapy and laboratory diagnostics to resistance surveillance and the adoption of medical technologies
       text: |-
-        ### 1. Clinical Pharmacology & Antimicrobial Therapy
-        Antimicrobial pharmacology, rational therapy, clinical interpretation of microbiological data and evidence-informed treatment optimization.
-
-        ### 2. Microbiology
-        Clinical microbiology, laboratory diagnosis of infections, microorganism–drug interactions and reliable microbiological data.
-
-        ### 3. Antimicrobial Resistance
-        AMR epidemiology and mechanisms, surveillance, risk factors and the use of resistance data in clinical and public-health decisions.
-
-        ### 4. Antimicrobial Susceptibility Testing
-        AST methodology, result interpretation, antibiogram quality control and development of new susceptibility-testing technologies.
-
-        ### 5. Diagnostic Technologies
-        Development, research and scientific validation of medical technologies for infection diagnostics and AST.
-
-        ### 6. Biomedical Data Science & Digital Health
-        Statistics, modelling, machine learning, expert algorithms and digital products for clinical and microbiological data.
-    design: {columns: '2'}
+        <div class="ak-card-grid ak-expertise-grid">
+          <article>
+            <div class="ak-card-icon">{{< icon name="heart" >}}</div>
+            <h3>Clinical Pharmacology and Antimicrobial Therapy</h3>
+            <p>Selecting and optimizing antimicrobial therapy based on the causative pathogen, site of infection, drug properties and patient-specific factors.</p>
+          </article>
+          <article>
+            <div class="ak-card-icon">{{< icon name="bug-ant" >}}</div>
+            <h3>Microbiology</h3>
+            <p>Clinical microbiology, laboratory diagnosis of infections, pathogen identification and interpretation of microbiological findings.</p>
+          </article>
+          <article>
+            <div class="ak-card-icon">{{< icon name="shield-check" >}}</div>
+            <h3>Antimicrobial Resistance</h3>
+            <p>The epidemiology and mechanisms of antimicrobial resistance, resistance surveillance, risk-factor assessment and containment strategies.</p>
+          </article>
+          <article>
+            <div class="ak-card-icon">{{< icon name="eye-dropper" >}}</div>
+            <h3>Antimicrobial Susceptibility Testing</h3>
+            <p>Susceptibility testing methods, laboratory quality assurance, and the interpretation of antibiograms for clinical decision-making.</p>
+          </article>
+          <article>
+            <div class="ak-card-icon">{{< icon name="wrench-screwdriver" >}}</div>
+            <h3>Diagnostic Technologies</h3>
+            <p>Development, scientific validation and implementation of medical technologies for the laboratory diagnosis of infections.</p>
+          </article>
+          <article>
+            <div class="ak-card-icon">{{< icon name="light-bulb" >}}</div>
+            <h3>Data Science and Digital Health</h3>
+            <p>Statistical methods, machine learning and expert systems for biomedical research and clinical decision support.</p>
+          </article>
+        </div>
+    design: {columns: '1'}
 ---

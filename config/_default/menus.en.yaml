@@ -4,8 +4,4 @@ main:
   - {name: Expertise, pageRef: /expertise, weight: 30}
   - {name: Projects, pageRef: /projects, weight: 40}
   - {name: Research, pageRef: /research, weight: 50}
-  - {name: Publications, pageRef: /publications, weight: 60}
-  - {name: Books, pageRef: /books, weight: 70}
-  - {name: Speaking, pageRef: /speaking, weight: 80}
-  - {name: Biography, pageRef: /biography, weight: 90}
   - {name: Contact, pageRef: /contact, weight: 100}
