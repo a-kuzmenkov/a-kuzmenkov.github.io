@@ -1,5 +1,12 @@
 ---
 title: Recent & Upcoming Talks
+build:
+  render: never
+  list: never
+cascade:
+  build:
+    render: never
+    list: never
 cms_exclude: true
 #url: talk
 

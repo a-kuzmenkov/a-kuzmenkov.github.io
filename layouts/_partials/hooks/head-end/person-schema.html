@@ -1,0 +1,56 @@
+{{- if .IsHome -}}
+  {{- $isRussian := eq .Language.Lang "ru" -}}
+  {{- $siteURL := "https://a-kuzmenkov.github.io/" -}}
+  {{- $personID := printf "%s#person" $siteURL -}}
+  {{- $profileID := printf "%s#profile" .Permalink -}}
+  {{- $description := cond $isRussian "Врач-исследователь, доктор медицинских наук, профессор и научный предприниматель в области клинической фармакологии, микробиологии, антимикробной резистентности и медицинских технологий." "Physician-scientist, Professor and scientific entrepreneur working in clinical pharmacology, microbiology, antimicrobial resistance and medical technology." -}}
+  {{- $sameAs := slice
+    "https://orcid.org/0000-0001-9562-2096"
+    "https://www.scopus.com/authid/detail.uri?authorId=57218210526"
+    "https://www.webofscience.com/wos/author/record/539353"
+    "https://www.elibrary.ru/author_profile.asp?authorid=889157"
+    "https://www.researchgate.net/profile/Alexey-Kuzmenkov"
+    "https://amrhub.ru/team/kuzmenkov-ay/"
+    "https://cmac-journal.ru/en/authors/kuzmenkov-ay/"
+  -}}
+  {{- $identifiers := slice
+    (dict "@type" "PropertyValue" "propertyID" "ORCID" "value" "0000-0001-9562-2096" "url" "https://orcid.org/0000-0001-9562-2096")
+    (dict "@type" "PropertyValue" "propertyID" "Scopus Author ID" "value" "57218210526" "url" "https://www.scopus.com/authid/detail.uri?authorId=57218210526")
+    (dict "@type" "PropertyValue" "propertyID" "ResearcherID" "value" "T-4838-2018" "url" "https://www.webofscience.com/wos/author/record/539353")
+    (dict "@type" "PropertyValue" "propertyID" "eLIBRARY Author ID" "value" "889157" "url" "https://www.elibrary.ru/author_profile.asp?authorid=889157")
+  -}}
+  {{- $affiliations := slice
+    (dict "@type" "Organization" "name" (cond $isRussian "НИИ антимикробной химиотерапии" "Institute of Antimicrobial Chemotherapy"))
+    (dict "@type" "CollegeOrUniversity" "name" (cond $isRussian "Смоленский государственный медицинский университет Минздрава России" "Smolensk State Medical University"))
+  -}}
+  {{- $person := dict
+    "@type" "Person"
+    "@id" $personID
+    "url" $siteURL
+    "name" (cond $isRussian "Алексей Юрьевич Кузьменков" "Alexey Kuzmenkov")
+    "alternateName" (slice "Алексей Юрьевич Кузьменков" "Кузьменков А. Ю." "Alexey Yuryevich Kuzmenkov" "Alexey Yu. Kuzmenkov" "Alexey Y. Kuzmenkov")
+    "givenName" (cond $isRussian "Алексей" "Alexey")
+    "additionalName" (cond $isRussian "Юрьевич" "Yuryevich")
+    "familyName" (cond $isRussian "Кузьменков" "Kuzmenkov")
+    "honorificSuffix" (slice "MD" "PhD" "DSc")
+    "description" $description
+    "jobTitle" (cond $isRussian (slice "Заместитель директора по стратегическим разработкам" "Профессор кафедры микробиологии" "Сооснователь и директор по науке и инновациям АБиоГрам") (slice "Deputy Director for Strategic Development" "Professor of Microbiology" "Co-Founder and Chief Science and Innovation Officer at ABioGram"))
+    "affiliation" $affiliations
+    "knowsAbout" (cond $isRussian (slice "Клиническая фармакология" "Антимикробная терапия" "Микробиология" "Антимикробная резистентность" "Определение чувствительности микроорганизмов" "Диагностические технологии" "Анализ биомедицинских данных" "Цифровое здравоохранение") (slice "Clinical pharmacology" "Antimicrobial therapy" "Microbiology" "Antimicrobial resistance" "Antimicrobial susceptibility testing" "Diagnostic technologies" "Biomedical data science" "Digital health"))
+    "identifier" $identifiers
+    "sameAs" $sameAs
+  -}}
+  {{- $profilePage := dict
+    "@context" "https://schema.org"
+    "@type" "ProfilePage"
+    "@id" $profileID
+    "url" .Permalink
+    "name" .Title
+    "description" $description
+    "inLanguage" (cond $isRussian "ru-RU" "en-US")
+    "dateCreated" (.Date.Format "2006-01-02")
+    "dateModified" (.Lastmod.Format "2006-01-02")
+    "mainEntity" $person
+  -}}
+<script type="application/ld+json">{{ $profilePage | jsonify | safeJS }}</script>
+{{- end -}}

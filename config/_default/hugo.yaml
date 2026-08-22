@@ -42,6 +42,9 @@ enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 disableAliases: true
+# Taxonomy and term pages are not part of the public profile yet. Disabling
+# them keeps placeholder tags and empty publication types out of the sitemap.
+disableKinds: [taxonomy, term]
 outputs:
   home: [HTML, RSS, headers, redirects, backlinks]
   section: [HTML, RSS]

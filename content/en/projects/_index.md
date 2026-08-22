@@ -2,6 +2,10 @@
 title: Projects
 summary: ABioGram and AMRhub are two complementary platforms supporting medical technology, research, education and professional collaboration.
 type: landing
+cascade:
+  build:
+    render: never
+    list: never
 sections:
   - block: markdown
     id: project-map

@@ -2,13 +2,17 @@
 title: Courses
 summary: My courses
 type: landing
+build:
+  render: never
+  list: never
 
 cascade:
-  - target:
-      path: '{/courses/*/**}'
-    type: docs
-    params:
-      show_breadcrumb: true
+  type: docs
+  build:
+    render: never
+    list: never
+  params:
+    show_breadcrumb: true
 
 sections:
   - block: collection

@@ -2,6 +2,13 @@
 title: Publications
 summary: Selected scientific publications by Alexey Kuzmenkov.
 type: landing
+build:
+  render: never
+  list: never
+cascade:
+  build:
+    render: never
+    list: never
 sections:
   - block: collection
     id: publications
