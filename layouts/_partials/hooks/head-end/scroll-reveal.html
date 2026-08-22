@@ -1,0 +1,49 @@
+<script>
+  document.documentElement.classList.add('ak-motion-ready');
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const root = document.documentElement;
+
+    try {
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        root.classList.remove('ak-motion-ready');
+        return;
+      }
+
+      const sections = [...document.querySelectorAll('.hbb-section')];
+      const items = [...document.querySelectorAll(
+        '.ak-card-grid > article, ' +
+        '.ak-trajectory-grid > article, ' +
+        '.ak-impact-grid > div, ' +
+        '.ak-profile-links > a'
+      )];
+
+      items.forEach((item) => {
+        const index = [...item.parentElement.children].indexOf(item);
+        item.classList.add('ak-reveal-item');
+        item.style.setProperty('--ak-reveal-delay', `${(index % 3) * 70}ms`);
+      });
+
+      if (!('IntersectionObserver' in window)) {
+        [...sections, ...items].forEach((element) => element.classList.add('is-visible'));
+        return;
+      }
+
+      const reveal = new IntersectionObserver((entries, observer) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        });
+      }, {
+        threshold: 0.04,
+        rootMargin: '0px 0px -6% 0px'
+      });
+
+      sections.forEach((section) => reveal.observe(section));
+      items.forEach((item) => reveal.observe(item));
+    } catch (error) {
+      root.classList.remove('ak-motion-ready');
+    }
+  });
+</script>

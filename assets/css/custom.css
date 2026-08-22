@@ -83,6 +83,37 @@ body {
 .hbb-section h3 { color: var(--ak-navy); letter-spacing: -0.035em; }
 .hbb-section h2 { font-weight: 700; }
 
+/* Restrained scroll reveals: soft movement for sections and a short stagger for cards. */
+.ak-motion-ready .hbb-section {
+  opacity: 0;
+  transform: translate3d(0, 22px, 0);
+  transition:
+    opacity 720ms cubic-bezier(0.22, 1, 0.36, 1),
+    transform 720ms cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+
+.ak-motion-ready .hbb-section.is-visible {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  will-change: auto;
+}
+
+.ak-motion-ready .ak-reveal-item {
+  opacity: 0;
+  transform: translate3d(0, 14px, 0);
+  transition:
+    opacity 560ms cubic-bezier(0.22, 1, 0.36, 1) var(--ak-reveal-delay, 0ms),
+    transform 560ms cubic-bezier(0.22, 1, 0.36, 1) var(--ak-reveal-delay, 0ms);
+  will-change: opacity, transform;
+}
+
+.ak-motion-ready .ak-reveal-item.is-visible {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  will-change: auto;
+}
+
 /* Hero: editorial layout instead of a centered template banner. */
 #home {
   min-height: min(820px, calc(100vh - 72px));
@@ -750,6 +781,19 @@ html[lang="en"] #about-resume .flex.flex-col > div:first-child .space-y-8 > .gro
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  .ak-motion-ready .hbb-section,
+  .ak-motion-ready .ak-reveal-item {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
+@media print {
+  .ak-motion-ready .hbb-section,
+  .ak-motion-ready .ak-reveal-item {
+    opacity: 1 !important;
+    transform: none !important;
+  }
 }
 /* Direct RU/EN switch in the navbar. */
 .ak-language-switcher {
