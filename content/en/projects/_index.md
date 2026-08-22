@@ -2,17 +2,19 @@
 title: Projects
 summary: ABioGram and AMRhub are two complementary platforms supporting medical technology, research, education and professional collaboration.
 type: landing
-cascade:
-  build:
-    render: never
-    list: never
 sections:
   - block: markdown
     id: project-map
     content:
-      title: Project Portfolio and Focus Areas
-      subtitle: Two platforms—a technology company and an open research ecosystem
+      title: ""
+      subtitle: ""
       text: |-
+        # Projects
+
+        ## Project Portfolio and Focus Areas
+
+        **Two platforms—a technology company and an open research ecosystem**
+
         ### ABioGram
         **Technology company.** Diagnostic and digital products, expert interpretation, quality assurance and antimicrobial resistance data analytics.
 

@@ -6,9 +6,15 @@ sections:
   - block: markdown
     id: research-program
     content:
-      title: Research Program
-      subtitle: From clinical questions to evidence, protocols and real-world implementation
+      title: ""
+      subtitle: ""
       text: |-
+        # Research
+
+        ## Research Program
+
+        **From clinical questions to evidence, protocols and real-world implementation**
+
         My research brings together clinical pharmacology, medical microbiology, and health technology assessment. Its central goal is to turn diagnostic findings and antimicrobial resistance data into evidence-based treatment decisions, clinical protocols, and healthcare technologies for real-world use.
 
         <div class="ak-card-grid">

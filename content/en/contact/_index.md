@@ -6,8 +6,12 @@ sections:
   - block: markdown
     id: collaboration
     content:
-      title: Areas for Collaboration
+      title: ""
       text: |-
+        # Contact and Collaboration
+
+        ## Areas for Collaboration
+
         I collaborate with research, clinical, and technology teams on projects in antimicrobial therapy, antimicrobial susceptibility testing, AMR diagnostics, and clinical microbiology.
 
         <div class="ak-card-grid ak-contact-grid">

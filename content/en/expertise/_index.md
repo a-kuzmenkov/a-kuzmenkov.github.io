@@ -6,9 +6,13 @@ sections:
   - block: markdown
     id: directions
     content:
-      title: Areas of Expertise
-      subtitle: From antimicrobial therapy and laboratory diagnostics to resistance surveillance and the adoption of medical technologies
+      title: ""
+      subtitle: ""
       text: |-
+        # Expertise
+
+        **From antimicrobial therapy and laboratory diagnostics to resistance surveillance and the adoption of medical technologies**
+
         <div class="ak-card-grid ak-expertise-grid">
           <article>
             <div class="ak-card-icon">{{< icon name="heart" >}}</div>

@@ -6,9 +6,13 @@ sections:
   - block: markdown
     id: about
     content:
-      title: About
-      subtitle: Science · Medicine · Technology
+      title: ""
+      subtitle: ""
       text: |-
+        # About
+
+        **Science · Medicine · Technology**
+
         I am a physician-scientist, Doctor of Medical Sciences and scientific entrepreneur working across **clinical pharmacology, microbiology, antimicrobial resistance and medical technology**.
 
         Today, I combine three professional roles: shaping scientific and technology strategy at **ABioGram**, leading strategic development at the **Institute of Antimicrobial Chemotherapy**, and teaching microbiology at **Smolensk State Medical University**.

@@ -6,8 +6,12 @@ sections:
   - block: markdown
     id: speaking
     content:
-      title: Speaking & Expert Engagement
+      title: ""
       text: |-
+        # Speaking
+
+        ## Speaking & Expert Engagement
+
         I speak and teach in English and Russian.
 
         ### Core Topics

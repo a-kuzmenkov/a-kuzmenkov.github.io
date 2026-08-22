@@ -6,8 +6,12 @@ sections:
   - block: markdown
     id: books
     content:
-      title: Books & Practical Guides
+      title: ""
       text: |-
+        # Books
+
+        ## Books & Practical Guides
+
         ### Data Science and Artificial Intelligence in Medicine
         **2026.** A comprehensive guide to the biomedical data workflow, from preparation and statistics to machine learning and practical use.
 

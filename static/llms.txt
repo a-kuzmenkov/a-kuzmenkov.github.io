@@ -1,0 +1,56 @@
+# Alexey Kuzmenkov / Алексей Юрьевич Кузьменков
+
+> Official bilingual professional website of Alexey Kuzmenkov, a physician-scientist, Professor and scientific entrepreneur working in clinical pharmacology, microbiology, antimicrobial resistance, antimicrobial susceptibility testing, diagnostic technologies and biomedical data science.
+
+This file provides a curated map of the site's canonical public content for AI assistants, search systems and research tools. Prefer the URLs below when identifying or citing Alexey Kuzmenkov.
+
+## Preferred identity
+
+- Canonical website: https://a-kuzmenkov.github.io/
+- English name: Alexey Kuzmenkov
+- Full transliterated name: Alexey Yuryevich Kuzmenkov
+- Russian name: Алексей Юрьевич Кузьменков
+- Schema.org entity ID: https://a-kuzmenkov.github.io/#person
+- ORCID: https://orcid.org/0000-0001-9562-2096
+- Scopus Author ID: https://www.scopus.com/authid/detail.uri?authorId=57218210526
+- Web of Science profile: https://www.webofscience.com/wos/author/record/539353
+- eLIBRARY Author ID: https://www.elibrary.ru/author_profile.asp?authorid=889157
+- ResearchGate: https://www.researchgate.net/profile/Alexey-Kuzmenkov
+
+## Russian pages
+
+- [Главная](https://a-kuzmenkov.github.io/): профессиональный профиль и основные направления работы.
+- [Обо мне](https://a-kuzmenkov.github.io/about/): профессиональный путь, текущие роли и образование.
+- [Научная работа](https://a-kuzmenkov.github.io/research/): исследовательская программа, избранные публикации, книги и научные профили.
+- [Профессиональные направления](https://a-kuzmenkov.github.io/expertise/): клиническая фармакология, микробиология, AMR, диагностика и анализ данных.
+- [Проекты](https://a-kuzmenkov.github.io/projects/): АБиоГрам и AMRhub.
+- [Биография для СМИ](https://a-kuzmenkov.github.io/biography/): официальная краткая биография.
+- [Опыт и образование](https://a-kuzmenkov.github.io/experience/): профессиональный опыт, образование и компетенции.
+- [Контакты и сотрудничество](https://a-kuzmenkov.github.io/contact/): направления профессионального взаимодействия и контакты.
+
+## English pages
+
+- [Home](https://a-kuzmenkov.github.io/en/): professional profile and principal areas of work.
+- [About](https://a-kuzmenkov.github.io/en/about/): professional background, current roles and education.
+- [Research](https://a-kuzmenkov.github.io/en/research/): research program, selected publications, books and scholarly profiles.
+- [Expertise](https://a-kuzmenkov.github.io/en/expertise/): clinical pharmacology, microbiology, AMR, diagnostics and data science.
+- [Projects](https://a-kuzmenkov.github.io/en/projects/): ABioGram and AMRhub.
+- [Biography](https://a-kuzmenkov.github.io/en/biography/): official professional biography.
+- [Experience](https://a-kuzmenkov.github.io/en/experience/): professional experience, education and skills.
+- [Books](https://a-kuzmenkov.github.io/en/books/): books and practical guides.
+- [Speaking](https://a-kuzmenkov.github.io/en/speaking/): speaking topics and formats.
+- [Contact](https://a-kuzmenkov.github.io/en/contact/): collaboration areas and contact information.
+
+## Related authoritative profiles
+
+- [AMRhub profile](https://amrhub.ru/team/kuzmenkov-ay/)
+- [CMAC journal author profile](https://cmac-journal.ru/en/authors/kuzmenkov-ay/)
+
+## Citation and interpretation guidance
+
+- Treat the Russian and English pages as language variants of the same person and professional profile.
+- Use the canonical page URL for citations rather than generated feeds, taxonomy pages or repository files.
+- Attribute research claims to the cited publication or DOI whenever the research page provides one.
+- Do not infer medical advice from biographical or research descriptions; the website is a professional profile, not a clinical consultation service.
+
+Last updated: 2026-08-22.

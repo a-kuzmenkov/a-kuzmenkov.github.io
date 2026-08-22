@@ -1,5 +1,8 @@
 ---
 title: Pandas
+build:
+  render: never
+  list: never
 date: 2023-10-26
 links:
   - type: site

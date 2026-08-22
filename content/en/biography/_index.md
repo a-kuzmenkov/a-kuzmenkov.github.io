@@ -6,8 +6,12 @@ sections:
   - block: markdown
     id: biography
     content:
-      title: Professional Biography
+      title: ""
       text: |-
+        # Biography
+
+        ## Professional Biography
+
         **Alexey Kuzmenkov, MD, PhD, DSc, is a physician-scientist, Professor and scientific entrepreneur working at the intersection of clinical pharmacology, antimicrobial therapy, microbiology, antimicrobial resistance and medical technology.**
 
         His work focuses on antimicrobial therapy, antimicrobial susceptibility testing, AMR diagnostics, biomedical data science and the translation of scientific evidence into practical medical technologies.

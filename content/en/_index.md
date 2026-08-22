@@ -9,7 +9,7 @@ sections:
     content:
       title: Physician-Scientist · R&D Leader · MedTech Entrepreneur
       text: |-
-        ## Alexey Kuzmenkov
+        # Alexey Kuzmenkov
 
         <p class="ak-hero-expertise">Clinical Pharmacology and Antimicrobial Therapy · Microbiology · Antimicrobial Resistance · Diagnostic and Digital Technologies</p>
 

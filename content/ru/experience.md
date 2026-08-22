@@ -5,6 +5,12 @@ type: landing
 design:
   spacing: '5rem'
 sections:
+  - block: markdown
+    id: experience-title
+    content:
+      text: |-
+        # Опыт и образование
+    design: {columns: '1'}
   - block: resume-experience
     content:
       title: Профессиональный опыт и образование

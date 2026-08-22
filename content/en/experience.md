@@ -10,6 +10,12 @@ design:
 
 # Page sections
 sections:
+  - block: markdown
+    id: experience-title
+    content:
+      text: |-
+        # Experience
+    design: {columns: '1'}
   - block: resume-experience
     content:
       username: me
