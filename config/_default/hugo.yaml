@@ -6,7 +6,7 @@
 # Website name (set in params.yaml under hugoblox.branding.name)
 title: ""
 # Website URL
-baseURL: "https://a-kuzmenkov.github.io/academic-cv/"
+baseURL: "https://a-kuzmenkov.github.io/"
 
 ############################
 ## LANGUAGE
