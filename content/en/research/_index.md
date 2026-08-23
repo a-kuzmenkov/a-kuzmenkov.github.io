@@ -1,6 +1,6 @@
 ---
 title: Research
-summary: Alexey Kuzmenkov’s research program, selected publications, books, and research profiles.
+summary: Alexey Kuzmenkov’s work creating medical technologies, digital systems, research methods, and models.
 type: landing
 sections:
   - block: markdown
@@ -13,17 +13,15 @@ sections:
 
         ## Research Program
 
-        **From clinical questions to evidence, protocols and real-world implementation**
-
-        My research brings together clinical pharmacology, medical microbiology, and health technology assessment. Its central goal is to turn diagnostic findings and antimicrobial resistance data into evidence-based treatment decisions, clinical protocols, and healthcare technologies for real-world use.
+        **I create medical technologies, digital systems, and research models for diagnostics, therapy, and healthcare management**
 
         <div class="ak-card-grid">
-          <article><span>01</span><h3>Validation of Diagnostic Technologies</h3><p>Evaluating the accuracy, reproducibility, and robustness of new methods, comparing them with reference approaches, and identifying sources of error.</p></article>
-          <article><span>02</span><h3>Antimicrobial Resistance Epidemiology and Surveillance</h3><p>Standardizing and analyzing data, identifying epidemiological patterns, and assessing resistance trends among pathogens.</p></article>
-          <article><span>03</span><h3>Treatment Protocol Development</h3><p>Translating local resistance data, diagnostic findings and evidence of efficacy into antimicrobial treatment algorithms and local protocols.</p></article>
-          <article><span>04</span><h3>Multicenter and Applied Research</h3><p>Evaluating technologies across laboratories and clinical settings, standardizing protocols and measuring their impact on diagnostic and treatment decisions.</p></article>
-          <article><span>05</span><h3>Pharmacoeconomics and Health Technology Assessment</h3><p>Evaluating the clinical and economic consequences of diagnostic and treatment decisions through scenario analysis and health-system impact modeling.</p></article>
-          <article><span>06</span><h3>Analytical and Digital Methods</h3><p>Statistical analysis, data visualization, and machine learning for research, forecasting, and clinical decision support.</p></article>
+          <article><span>01</span><h3>Medical Technologies</h3><p>Developing diagnostic and therapeutic solutions, from scientific idea and study design to a technology ready for practical use.</p></article>
+          <article><span>02</span><h3>Digital Systems and Expert Algorithms</h3><p>Creating platforms for collecting and standardizing biomedical data, interpreting results, detecting errors, and supporting clinical decisions.</p></article>
+          <article><span>03</span><h3>Data Analysis and Artificial Intelligence</h3><p>Developing statistical, predictive, and pharmacoeconomic models, and applying machine learning to biomedical data analysis, forecasting, and decision support.</p></article>
+          <article><span>04</span><h3>Clinical and Multicenter Research</h3><p>Defining research questions, designing applied studies, building comparable datasets, and identifying patterns relevant to clinical practice.</p></article>
+          <article><span>05</span><h3>Therapeutic Solutions and Protocols</h3><p>Developing treatment algorithms, practical guidance, and local protocols based on research findings, diagnostic data, and evidence of effectiveness.</p></article>
+          <article><span>06</span><h3>Evidence and Implementation</h3><p>Testing the accuracy, reproducibility, and clinical value of the solutions created, refining them, and preparing them for use in laboratories and healthcare organizations.</p></article>
         </div>
     design: {columns: '1'}
 
@@ -31,7 +29,7 @@ sections:
     id: publications
     content:
       title: Selected Publications
-      subtitle: Selected work spanning research, clinical practice, and technology development
+      subtitle: Selected work demonstrating the creation of methods, models, digital platforms, and clinical solutions
       text: |-
         <div class="ak-card-grid ak-publication-grid">
           <article><span>2026</span><h3>Predictive modelling of the dynamics of antimicrobial resistance: creation of a bank of renewable models based on machine learning</h3><p>Frontiers in Pharmacology, 17:1715346.</p><a href="https://doi.org/10.3389/fphar.2026.1715346" target="_blank" rel="noopener">DOI: 10.3389/fphar.2026.1715346 ↗</a></article>
@@ -57,11 +55,11 @@ sections:
         <div class="ak-card-grid ak-books-grid">
           <article class="ak-book-card ak-book-card--wrap">
             <a class="ak-book-cover" href="https://ds-book.ru/" target="_blank" rel="noopener"><img src="../../uploads/books/data-science-medicine.jpg" alt="Cover of Data Science and Artificial Intelligence in Medicine" loading="lazy"></a>
-            <div class="ak-book-body"><span>2026 · 744 pages</span><h3>Data Science and Artificial Intelligence in Medicine</h3><p>A practical guide to the complete biomedical data workflow—from study design and data preparation to statistical analysis, visualization, and machine learning.</p><a href="https://ds-book.ru/" target="_blank" rel="noopener">Book website ↗</a></div>
+            <div class="ak-book-body"><span>2026 · 744 pages</span><h3>Data Science and Artificial Intelligence in Medicine</h3><p>A practical guide to the complete biomedical data workflow, from study design and data preparation to statistical analysis, visualization, and machine learning.</p><a href="https://ds-book.ru/" target="_blank" rel="noopener">Book website ↗</a></div>
           </article>
           <article class="ak-book-card">
             <a class="ak-book-cover" href="https://antibiotic-book.ru/" target="_blank" rel="noopener"><img src="../../uploads/books/antibiogram.png" alt="Cover of The Antibiogram" loading="lazy"></a>
-            <div class="ak-book-body"><span>2025 · 248 pages</span><h3>The Antibiogram</h3><p>The first practical guide to producing, reading, and interpreting an antibiogram—from susceptibility testing methods to treatment selection and digital validation of results.</p><a href="https://antibiotic-book.ru/" target="_blank" rel="noopener">Book website ↗</a></div>
+            <div class="ak-book-body"><span>2025 · 248 pages</span><h3>The Antibiogram</h3><p>The first practical guide to producing, reading, and interpreting an antibiogram, from susceptibility testing methods to treatment selection and digital validation of results.</p><a href="https://antibiotic-book.ru/" target="_blank" rel="noopener">Book website ↗</a></div>
           </article>
           <article class="ak-book-card">
             <a class="ak-book-cover" href="https://monitoring.amrcloud.net/" target="_blank" rel="noopener"><img src="../../uploads/books/amrcloud-monitoring.png" alt="Cover of Antimicrobial Resistance Surveillance with the AMRcloud Platform" loading="lazy"></a>

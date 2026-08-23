@@ -1,7 +1,7 @@
 ---
-title: 'Alexey Kuzmenkov – Clinical Pharmacology, Antimicrobial Resistance, Microbiology and Medical Technology'
+title: 'Alexey Kuzmenkov: Physician-Scientist, R&D Leader and MedTech Entrepreneur'
 summary: 'Physician-scientist, professor and MedTech entrepreneur. Co-founder of ABioGram and founder of AMRhub.'
-date: 2026-08-17
+date: 2026-08-23
 type: landing
 sections:
   - block: markdown
@@ -11,7 +11,7 @@ sections:
       text: |-
         # Alexey Kuzmenkov
 
-        <p class="ak-hero-expertise">Clinical Pharmacology and Antimicrobial Therapy · Microbiology · Antimicrobial Resistance · Diagnostic and Digital Technologies</p>
+        <p class="ak-hero-expertise">Medical Technology · Clinical Research · Data and Artificial Intelligence · Clinical Pharmacology and Antimicrobial Therapy</p>
 
         Physician-scientist with a DSc in Medicine and an MBA.
 
@@ -26,11 +26,11 @@ sections:
   - block: markdown
     id: focus
     content:
-      title: From Scientific Data to Medical Technology
+      title: From Scientific Questions to Medical Technology
       text: |-
-        I work at the intersection of clinical pharmacology, microbiology, antimicrobial resistance and medical technology. I focus on the full journey of microbiology data—from laboratory results to interpretation and clinical decision-making.
+        I create medical technologies and digital systems at the intersection of clinical medicine, research, data, and management. My work spans the full cycle from defining a scientific problem and designing a study to creating a solution, building its evidence base, and implementing it.
 
-        ### Science → Data → Diagnostics → Technology → Clinical Application
+        ### Scientific Question → Research → Data and Models → Technology → Implementation
 
         [Explore My Expertise →](expertise/)
     design: {columns: '1'}
@@ -54,28 +54,28 @@ sections:
   - block: markdown
     id: trajectory
     content:
-      title: Professional Journey
+      title: Professional Profile
       text: |-
         <div class="ak-trajectory-grid">
           <article>
-            <span>01</span>
+            <span>MEDICINE</span>
             <h3>Clinical Medicine</h3>
-            <p>Medical training, surgical residency and clinical pharmacology shaped my focus on the practical value of laboratory data.</p>
+            <p>I define development problems from the perspective of clinical practice, consider the needs of physicians and patients, and assess how solutions affect treatment decisions and real-world implementation.</p>
           </article>
           <article>
-            <span>02</span>
+            <span>RESEARCH</span>
             <h3>Research and Data</h3>
-            <p>Research in microbiology and antimicrobial resistance, protocol development, biomedical data analysis and the development of nationwide digital health tools.</p>
+            <p>I design clinical and multicenter studies, develop protocols, analyze biomedical data, and create models and digital research tools.</p>
           </article>
           <article>
-            <span>03</span>
+            <span>R&amp;D</span>
             <h3>R&amp;D Leadership</h3>
-            <p>Leading multidisciplinary teams and project portfolios at the intersection of medicine, digital products and diagnostic technologies.</p>
+            <p>I lead multidisciplinary teams and project portfolios at the intersection of medicine, digital products, data, and medical technology.</p>
           </article>
           <article>
-            <span>04</span>
+            <span>ENTREPRENEURSHIP</span>
             <h3>MedTech Entrepreneurship</h3>
-            <p>My current focus is on R&amp;D and technology strategy, developing diagnostic and digital products, and generating the evidence needed to validate new solutions.</p>
+            <p>I connect science and technology strategy, medical and digital product development, evidence generation, and the implementation of new solutions.</p>
           </article>
         </div>
 
@@ -100,7 +100,7 @@ sections:
     content:
       title: Research
       text: |-
-        My research spans antimicrobial therapy and clinical pharmacology, antimicrobial resistance, antimicrobial susceptibility testing, diagnostic technologies and biomedical data analysis.
+        I develop medical technologies, digital systems, research methods, and models for diagnostics, therapy, and healthcare management. My principal domain expertise includes clinical pharmacology, microbiology, antimicrobial therapy, and antimicrobial resistance.
 
         [Explore My Research and Its Impact →](research/)
     design: {columns: '1'}

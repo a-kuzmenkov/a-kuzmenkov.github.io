@@ -1,6 +1,6 @@
 ---
 title: Expertise
-summary: Clinical pharmacology, microbiology, antimicrobial resistance, susceptibility testing, diagnostic technologies and biomedical data science.
+summary: 'Clinical pharmacology, microbiology, and antimicrobial resistance combined with expertise in medical technology, research, data, and R&D.'
 type: landing
 sections:
   - block: markdown
@@ -11,9 +11,10 @@ sections:
       text: |-
         # Expertise
 
-        **From antimicrobial therapy and laboratory diagnostics to resistance surveillance and the adoption of medical technologies**
-
-        <div class="ak-card-grid ak-expertise-grid">
+        <div class="ak-expertise-groups">
+        <section class="ak-expertise-group ak-expertise-group--domain">
+          <header class="ak-expertise-group__header"><span>01</span><h2>Domain Expertise</h2></header>
+          <div class="ak-card-grid ak-expertise-grid">
           <article>
             <div class="ak-card-icon">{{< icon name="heart" >}}</div>
             <h3>Clinical Pharmacology and Antimicrobial Therapy</h3>
@@ -21,8 +22,8 @@ sections:
           </article>
           <article>
             <div class="ak-card-icon">{{< icon name="bug-ant" >}}</div>
-            <h3>Microbiology</h3>
-            <p>Clinical microbiology, laboratory diagnosis of infections, pathogen identification and interpretation of microbiological findings.</p>
+            <h3>Clinical Microbiology</h3>
+            <p>Laboratory diagnosis of infections, pathogen identification, interpretation of findings, and their connection to the clinical question.</p>
           </article>
           <article>
             <div class="ak-card-icon">{{< icon name="shield-check" >}}</div>
@@ -34,16 +35,34 @@ sections:
             <h3>Antimicrobial Susceptibility Testing</h3>
             <p>Susceptibility testing methods, laboratory quality assurance, and the interpretation of antibiograms for clinical decision-making.</p>
           </article>
+          </div>
+        </section>
+
+        <section class="ak-expertise-group ak-expertise-group--capabilities">
+          <header class="ak-expertise-group__header"><span>02</span><h2>Cross-Functional Capabilities</h2></header>
+          <div class="ak-card-grid ak-expertise-grid">
           <article>
             <div class="ak-card-icon">{{< icon name="wrench-screwdriver" >}}</div>
-            <h3>Diagnostic Technologies</h3>
-            <p>Development, scientific validation and implementation of medical technologies for the laboratory diagnosis of infections.</p>
+            <h3>Medical Technology and R&amp;D</h3>
+            <p>Creating diagnostic, therapeutic, and digital solutions, and shaping development portfolios, expert algorithms, and intellectual property.</p>
           </article>
           <article>
-            <div class="ak-card-icon">{{< icon name="light-bulb" >}}</div>
-            <h3>Data Science and Digital Health</h3>
-            <p>Statistical methods, machine learning and expert systems for biomedical research and clinical decision support.</p>
+            <div class="ak-card-icon">{{< icon name="user-group" >}}</div>
+            <h3>Clinical and Multicenter Research</h3>
+            <p>Study design, protocol and analysis plan development, creation of comparable datasets, and coordination of multidisciplinary work.</p>
           </article>
+          <article>
+            <div class="ak-card-icon">{{< icon name="circle-stack" >}}</div>
+            <h3>Biomedical Data and Artificial Intelligence</h3>
+            <p>Statistical analysis, visualization, predictive modeling, machine learning, and expert systems for research and decision support.</p>
+          </article>
+          <article>
+            <div class="ak-card-icon">{{< icon name="rocket-launch" >}}</div>
+            <h3>Evidence and Implementation</h3>
+            <p>Assessing clinical and economic value, validating solutions, building evidence, and preparing technologies for practical implementation.</p>
+          </article>
+          </div>
+        </section>
         </div>
     design: {columns: '1'}
 ---

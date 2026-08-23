@@ -1,7 +1,7 @@
 main:
   - {name: Главная, pageRef: /, weight: 10}
   - {name: Обо мне, pageRef: /about, weight: 20}
-  - {name: Направления, pageRef: /expertise, weight: 30}
+  - {name: Экспертиза, pageRef: /expertise, weight: 30}
   - {name: Проекты, pageRef: /projects, weight: 40}
   - {name: Научная работа, pageRef: /research, weight: 50}
   - {name: Контакты, pageRef: /contact, weight: 100}
