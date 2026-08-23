@@ -8,8 +8,8 @@ name:
 postnominals: [MD, PhD, DSc]
 role: Physician-Scientist · Scientific Founder · Medical Technology
 bio: |
-  Physician-scientist, Professor and scientific entrepreneur working at the intersection of
-  clinical pharmacology, microbiology, antimicrobial resistance and medical technology.
+  Physician-scientist, Professor, and scientific entrepreneur working at the intersection of
+  clinical pharmacology, microbiology, antimicrobial resistance, and medical technology.
 affiliations:
   - name: Institute of Antimicrobial Chemotherapy
   - name: Smolensk State Medical University
@@ -54,7 +54,7 @@ education:
     institution: HSE University
     start: 2024-01-01
     end: 2025-12-31
-  - degree: Doctoral Studies in Clinical Medicine, Pharmacology and Clinical Pharmacology
+  - degree: Doctoral Studies in Clinical Medicine, Pharmacology, and Clinical Pharmacology
     institution: Smolensk State Medical University
     start: 2020-01-01
     end: 2022-12-31

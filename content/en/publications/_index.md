@@ -14,7 +14,7 @@ sections:
     id: publications
     content:
       title: Selected Publications
-      text: Work in clinical pharmacology, AMR, AST, diagnostics, surveillance and biomedical data science.
+      text: Work in clinical pharmacology, AMR, AST, diagnostics, surveillance, and biomedical data science.
       filters:
         folders: [publications]
     design:

@@ -18,7 +18,7 @@ sections:
           <article>
             <div class="ak-card-icon">{{< icon name="heart" >}}</div>
             <h3>Clinical Pharmacology and Antimicrobial Therapy</h3>
-            <p>Selecting and optimizing antimicrobial therapy based on the causative pathogen, site of infection, drug properties and patient-specific factors.</p>
+            <p>Selecting and optimizing antimicrobial therapy based on the causative pathogen, site of infection, drug properties, and patient-specific factors.</p>
           </article>
           <article>
             <div class="ak-card-icon">{{< icon name="bug-ant" >}}</div>
@@ -28,7 +28,7 @@ sections:
           <article>
             <div class="ak-card-icon">{{< icon name="shield-check" >}}</div>
             <h3>Antimicrobial Resistance</h3>
-            <p>The epidemiology and mechanisms of antimicrobial resistance, resistance surveillance, risk-factor assessment and containment strategies.</p>
+            <p>The epidemiology and mechanisms of antimicrobial resistance, resistance surveillance, risk-factor assessment, and containment strategies.</p>
           </article>
           <article>
             <div class="ak-card-icon">{{< icon name="eye-dropper" >}}</div>

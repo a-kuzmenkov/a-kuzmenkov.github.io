@@ -1,6 +1,6 @@
 ---
-title: 'Alexey Kuzmenkov: Physician-Scientist, R&D Leader and MedTech Entrepreneur'
-summary: 'Physician-scientist, professor and MedTech entrepreneur. Co-founder of ABioGram and founder of AMRhub.'
+title: 'Alexey Kuzmenkov: Physician-Scientist, R&D Leader, and MedTech Entrepreneur'
+summary: 'Physician-scientist, professor, and MedTech entrepreneur. Co-founder of ABioGram and founder of AMRhub.'
 date: 2026-08-23
 type: landing
 sections:
@@ -42,12 +42,12 @@ sections:
         ## ABioGram
         **Medical technology company**
 
-        Developing diagnostic and digital solutions for microbiology, antimicrobial susceptibility testing and antimicrobial resistance data analysis.
+        Developing diagnostic and digital solutions for microbiology, antimicrobial susceptibility testing, and antimicrobial resistance data analysis.
 
         ## AMRhub
         **Open research and education ecosystem**
 
-        Research and education initiatives, open digital tools and a professional community focused on antimicrobial therapy and resistance.
+        Research and education initiatives, open digital tools, and a professional community focused on antimicrobial therapy and resistance.
 
         [Explore the Projects →](projects/)
     design: {columns: '2'}
@@ -88,7 +88,7 @@ sections:
       text: |-
         <div class="ak-impact-grid">
           <div><strong>10+ years</strong><span>of research and development in medicine and technology</span></div>
-          <div><strong>100+</strong><span>research publications, educational resources and professional guidelines</span></div>
+          <div><strong>100+</strong><span>research publications, educational resources, and professional guidelines</span></div>
           <div><strong>17</strong><span>patents and other intellectual property assets</span></div>
           <div><strong>200,000+</strong><span>users of AMRhub products in 2025</span></div>
           <div><strong>300+</strong><span>healthcare organizations</span></div>
@@ -109,9 +109,9 @@ sections:
     content:
       title: Professional Focus
       text: |-
-        My professional focus is translating scientific knowledge and research findings into practical medical technologies and products. I am particularly interested in deep-tech entrepreneurship, developing scientifically validated products and building systems that connect research, development and real-world implementation.
+        My professional focus is translating scientific knowledge and research findings into practical medical technologies and products. I am particularly interested in deep-tech entrepreneurship, developing scientifically validated products, and building systems that connect research, development, and real-world implementation.
 
-        I lead my own ventures and collaborate with research, technology and industry partners.
+        I lead my own ventures and collaborate with research, technology, and industry partners.
 
         [Get in Touch](contact/)
     design: {columns: '1'}

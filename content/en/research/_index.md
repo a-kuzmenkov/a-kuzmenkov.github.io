@@ -18,7 +18,7 @@ sections:
         <div class="ak-card-grid">
           <article><span>01</span><h3>Medical Technologies</h3><p>Developing diagnostic and therapeutic solutions, from scientific idea and study design to a technology ready for practical use.</p></article>
           <article><span>02</span><h3>Digital Systems and Expert Algorithms</h3><p>Creating platforms for collecting and standardizing biomedical data, interpreting results, detecting errors, and supporting clinical decisions.</p></article>
-          <article><span>03</span><h3>Data Analysis and Artificial Intelligence</h3><p>Developing statistical, predictive, and pharmacoeconomic models, and applying machine learning to biomedical data analysis, forecasting, and decision support.</p></article>
+          <article><span>03</span><h3>Data Analysis and Artificial Intelligence</h3><p>Developing statistical, predictive, and pharmacoeconomic models and applying machine learning to biomedical data analysis, forecasting, and decision support.</p></article>
           <article><span>04</span><h3>Clinical and Multicenter Research</h3><p>Defining research questions, designing applied studies, building comparable datasets, and identifying patterns relevant to clinical practice.</p></article>
           <article><span>05</span><h3>Therapeutic Solutions and Protocols</h3><p>Developing treatment algorithms, practical guidance, and local protocols based on research findings, diagnostic data, and evidence of effectiveness.</p></article>
           <article><span>06</span><h3>Evidence and Implementation</h3><p>Testing the accuracy, reproducibility, and clinical value of the solutions created, refining them, and preparing them for use in laboratories and healthcare organizations.</p></article>
