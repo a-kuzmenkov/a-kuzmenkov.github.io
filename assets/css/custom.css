@@ -249,12 +249,14 @@ body {
 #directions .prose,
 #abiogram .prose,
 #amrhub .prose,
+#education .prose,
 #research-program .prose,
 #publications .prose,
 #books .prose,
 #speaking .prose,
 #profiles .prose,
 #collaboration .prose,
+#project-map .prose,
 #contact .prose {
   width: 100%;
   max-width: 1180px;
@@ -451,7 +453,7 @@ body {
 }
 
 .ak-contact-grid {
-  grid-template-columns: repeat(2, minmax(280px, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   align-items: stretch;
 }
 
@@ -796,6 +798,14 @@ html[lang="en"] #about-resume .flex.flex-col > div:first-child .space-y-8 > .gro
   line-height: 1.45;
 }
 
+#impact .prose .ak-impact-note {
+  max-width: 76ch;
+  margin: 1.25rem 0 0;
+  color: rgba(255,255,255,.62);
+  font-size: .82rem;
+  line-height: 1.55;
+}
+
 @media (max-width: 800px) {
   .ak-impact-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
@@ -803,6 +813,187 @@ html[lang="en"] #about-resume .flex.flex-col > div:first-child .space-y-8 > .gro
 @media (max-width: 480px) {
   .ak-impact-grid { grid-template-columns: 1fr; }
   .ak-impact-grid > div { min-height: 125px; }
+}
+
+/* Project ecosystem */
+.ak-ecosystem-overview {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+  max-width: none;
+  margin: 2.75rem 0 2.25rem;
+}
+
+.ak-ecosystem-branch {
+  display: flex;
+  min-width: 0;
+  min-height: 330px;
+  flex-direction: column;
+  padding: 2rem;
+  border: 1px solid var(--ak-line);
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: var(--ak-shadow);
+}
+
+.ak-ecosystem-branch--abio { border-top: 4px solid #14835f; }
+.ak-ecosystem-branch--amr { border-top: 4px solid #465ecf; }
+.ak-ecosystem-branch--edu { border-top: 4px solid #b36c14; }
+
+.ak-ecosystem-branch > span,
+.ak-project-clusters article > span {
+  color: var(--ak-muted);
+  font-size: .72rem;
+  font-weight: 760;
+  letter-spacing: .1em;
+}
+
+.ak-ecosystem-branch h2 {
+  margin: .65rem 0 .8rem !important;
+  padding: 0 !important;
+  border: 0 !important;
+  font-size: clamp(1.45rem, 2.5vw, 2rem) !important;
+}
+
+.ak-ecosystem-branch p { margin: 0 0 1rem !important; font-size: .94rem; }
+.ak-ecosystem-branch strong { margin-top: auto; color: var(--ak-ink); font-size: .78rem; }
+.ak-ecosystem-branch a { margin-top: 1rem; font-size: .86rem; font-weight: 700; }
+
+.ak-ecosystem-flow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: .55rem;
+  padding: 1rem 1.2rem;
+  border: 1px solid var(--ak-line);
+  border-radius: 16px;
+  background: #fff;
+  color: var(--ak-ink);
+  font-size: .82rem;
+  font-weight: 680;
+}
+
+.ak-ecosystem-flow b { color: var(--ak-teal); }
+.ak-project-direction-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+.ak-project-logic {
+  display: grid;
+  gap: .5rem;
+  margin: 1.6rem 0;
+  padding: 1.2rem 1.3rem;
+  border-left: 4px solid var(--ak-teal);
+  border-radius: 0 14px 14px 0;
+  background: #edf8f6;
+}
+
+.ak-project-logic span { color: var(--ak-muted); font-size: .9rem; }
+
+.ak-project-clusters {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.ak-project-clusters article {
+  padding: 1.35rem;
+  border: 1px solid #d8ddfa;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.ak-project-clusters article:first-child { grid-column: 1 / -1; }
+.ak-project-clusters article > span { color: #465ecf; }
+.ak-project-clusters h3 { margin: .6rem 0 !important; padding: 0 !important; border: 0 !important; font-size: 1rem !important; }
+.ak-project-clusters p { margin: 0 !important; font-size: .9rem; }
+
+.ak-project-metrics {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  overflow: hidden;
+  margin: 1.5rem 0 .7rem;
+  border-radius: 16px;
+  background: rgba(255,255,255,.15);
+}
+
+.ak-project-metrics > div {
+  display: grid;
+  gap: .4rem;
+  padding: 1.25rem;
+  background: var(--ak-navy);
+}
+
+.ak-project-metrics strong { color: #69d8cd !important; font-size: 1.8rem; }
+.ak-project-metrics span { color: rgba(255,255,255,.76); font-size: .86rem; }
+.ak-project-note { color: var(--ak-muted); font-size: .78rem !important; }
+
+.ak-education-projects {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.ak-education-projects article { min-height: 260px; }
+
+.ak-education-metric {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  margin-top: 1rem;
+  padding: 1.2rem 1.4rem;
+  border: 1px solid #f0d8b6;
+  border-radius: 16px;
+  background: #fff6e9;
+}
+
+.ak-education-metric strong { color: #8f5610 !important; font-size: 2rem; white-space: nowrap; }
+.ak-education-metric span { color: #6f5434; font-size: .9rem; }
+
+.ak-ecosystem-result {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.ak-ecosystem-result > div {
+  display: grid;
+  gap: .45rem;
+  padding: 1.2rem;
+  border: 1px solid var(--ak-line);
+  border-radius: 14px;
+  background: #fff;
+}
+
+.ak-ecosystem-result span { color: var(--ak-muted); font-size: .84rem; }
+
+@media (max-width: 1080px) {
+  .ak-ecosystem-overview { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .ak-ecosystem-branch--edu { grid-column: 1 / -1; }
+}
+
+@media (max-width: 900px) {
+  .ak-education-projects { grid-template-columns: 1fr; }
+  .ak-ecosystem-result { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 720px) {
+  .ak-ecosystem-overview { grid-template-columns: 1fr; }
+  .ak-ecosystem-branch,
+  .ak-ecosystem-branch--edu { grid-column: auto; min-height: 0; }
+}
+
+@media (max-width: 640px) {
+  .ak-project-direction-grid,
+  .ak-project-clusters,
+  .ak-project-metrics,
+  .ak-ecosystem-result { grid-template-columns: 1fr; }
+  .ak-project-clusters article:first-child { grid-column: auto; }
+  .ak-ecosystem-flow b { display: none; }
+  .ak-ecosystem-flow span { width: 100%; text-align: center; }
+  .ak-education-metric { align-items: flex-start; flex-direction: column; gap: .3rem; }
 }
 
 #contact { background: linear-gradient(135deg, #e9f7f5, #f8fbfb); }
@@ -825,6 +1016,23 @@ html[lang="en"] #about-resume .flex.flex-col > div:first-child .space-y-8 > .gro
   text-align: center !important;
 }
 .ak-contact-cta a { margin-left: auto !important; margin-right: auto !important; }
+
+.ak-contact-address {
+  padding: 1.25rem 0;
+  font-size: clamp(1.15rem, 2vw, 1.45rem);
+  text-align: center;
+}
+
+#contact .prose .ak-contact-address a {
+  display: inline;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+  color: var(--ak-teal-dark);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: .22em;
+}
 
 @media (max-width: 1024px) {
   #site-header nav a { font-size: 0.88rem; }

@@ -39,7 +39,7 @@ sections:
         </section>
 
         <section class="ak-expertise-group ak-expertise-group--capabilities">
-          <header class="ak-expertise-group__header"><span>02</span><h2>Сквозные компетенции</h2></header>
+          <header class="ak-expertise-group__header"><span>02</span><h2>Системные компетенции</h2></header>
           <div class="ak-card-grid ak-expertise-grid">
           <article>
             <div class="ak-card-icon">{{< icon name="wrench-screwdriver" >}}</div>
@@ -60,6 +60,16 @@ sections:
             <div class="ak-card-icon">{{< icon name="rocket-launch" >}}</div>
             <h3>Доказательная база и внедрение</h3>
             <p>Оценка клинической и экономической ценности, валидация решений, формирование доказательной базы и подготовка технологий к практическому применению.</p>
+          </article>
+          <article>
+            <div class="ak-card-icon">{{< icon name="chart-bar" >}}</div>
+            <h3>Экономическая оценка</h3>
+            <p>Фармакоэкономические модели, оценка последствий диагностических и терапевтических решений и обоснование их ценности для медицинских организаций и систем здравоохранения.</p>
+          </article>
+          <article>
+            <div class="ak-card-icon">{{< icon name="users" >}}</div>
+            <h3>R&amp;D-стратегия и команды</h3>
+            <p>Формирование портфеля разработок, управление мультидисциплинарными командами и координация работы исследователей, разработчиков и инженеров.</p>
           </article>
           </div>
         </section>
