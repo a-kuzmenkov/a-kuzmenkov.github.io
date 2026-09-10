@@ -30,15 +30,12 @@ sections:
           </article>
           <article class="ak-ecosystem-branch ak-ecosystem-branch--edu">
             <span>ОБРАЗОВАНИЕ</span>
-            <h2>Data Science в медицине</h2>
-            <p>Программы и материалы по статистике, анализу биомедицинских данных, машинному обучению и искусственному интеллекту.</p>
+            <h2>Медицинское образование</h2>
+            <p>Программы, курсы, книги и практические руководства по клинической микробиологии, антимикробной терапии, биомедицинским данным и искусственному интеллекту.</p>
             <a href="#education">Смотреть направление ↓</a>
           </article>
         </div>
 
-        <div class="ak-ecosystem-flow" aria-label="Логика экосистемы проектов">
-          <span>Научная задача</span><b>→</b><span>Исследование</span><b>→</b><span>Данные</span><b>→</b><span>Технология</span><b>→</b><span>Доказательная база</span><b>→</b><span>Внедрение</span>
-        </div>
     design: {columns: '1'}
 
   - block: markdown
@@ -138,16 +135,4 @@ sections:
         <div class="ak-education-metric"><strong>3000+</strong><span>студентов и ординаторов завершили программы по Data Science и искусственному интеллекту в медицине в 2023–2026 годах</span></div>
     design: {columns: '1'}
 
-  - block: markdown
-    id: ecosystem-result
-    content:
-      title: Общая логика
-      text: |-
-        <div class="ak-ecosystem-result">
-          <div><strong>АБиоГрам</strong><span>Медицинские технологии и продукты</span></div>
-          <div><strong>AMRhub</strong><span>Открытые цифровые и научные проекты</span></div>
-          <div><strong>Образование</strong><span>Передача методов и компетенций</span></div>
-          <div><strong>Общая основа</strong><span>Исследования и доказательная база</span></div>
-        </div>
-    design: {columns: '1'}
 ---

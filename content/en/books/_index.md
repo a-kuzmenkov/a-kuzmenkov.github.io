@@ -1,5 +1,6 @@
 ---
 title: Books
+draft: true
 summary: Books and practical guides on medical data science, antibiograms, and AMR surveillance.
 type: landing
 sections:

@@ -1,6 +1,6 @@
 ---
-title: Projects
-summary: ABioGram and AMRhub are two complementary platforms supporting medical technology, research, education, and professional collaboration.
+title: Project Ecosystem
+summary: Medical technologies, digital platforms, research initiatives, and educational programs developed by Alexey Kuzmenkov.
 type: landing
 sections:
   - block: markdown
@@ -9,61 +9,108 @@ sections:
       title: ""
       subtitle: ""
       text: |-
-        # Projects
+        # Project Ecosystem
 
-        ## Project Portfolio and Focus Areas
+        Medical technologies, digital platforms, research initiatives, and educational programs built on a shared scientific and clinical foundation.
 
-        **Two platforms—a technology company and an open research ecosystem**
-
-        ### ABioGram
-        **Technology company.** Diagnostic and digital products, expert interpretation, quality assurance, and antimicrobial resistance data analytics.
-
-        ### AMRhub
-        **Open ecosystem.** Research and education initiatives, open digital tools, a professional community, and knowledge sharing.
-
-        The platforms address different needs but complement one another through their shared scientific focus and commitment to high-quality microbiology data.
-    design: {columns: '2'}
+        <div class="ak-ecosystem-overview">
+          <article class="ak-ecosystem-branch ak-ecosystem-branch--abio">
+            <span>MEDICAL TECHNOLOGY</span>
+            <h2>ABioGram</h2>
+            <p>Product development for clinical microbiology, diagnostics, antimicrobial susceptibility testing, and antimicrobial resistance data analysis.</p>
+            <strong>Co-Founder · Chief Science and Innovation Officer</strong>
+            <a href="#abiogram">Explore this area ↓</a>
+          </article>
+          <article class="ak-ecosystem-branch ak-ecosystem-branch--amr">
+            <span>RESEARCH AND COMMUNITY</span>
+            <h2>AMRhub</h2>
+            <p>An open science and education ecosystem focused on antimicrobial therapy and antimicrobial resistance.</p>
+            <strong>Founder · Ecosystem Architect</strong>
+            <a href="#amrhub">Explore the projects ↓</a>
+          </article>
+          <article class="ak-ecosystem-branch ak-ecosystem-branch--edu">
+            <span>EDUCATION</span>
+            <h2>Medical Education</h2>
+            <p>Programs, courses, books, and practical guides covering clinical microbiology, antimicrobial therapy, biomedical data, and artificial intelligence.</p>
+            <a href="#education">Explore this area ↓</a>
+          </article>
+        </div>
+    design: {columns: '1'}
 
   - block: markdown
     id: abiogram
     content:
       title: ABioGram
-      subtitle: Antimicrobial Resistance Diagnostics and Analytics
+      subtitle: Medical Technology and Product Development
       text: |-
         **Co-Founder · Chief Science and Innovation Officer**
 
-        I am responsible for the company’s R&D and innovation strategy: shaping its research and development portfolio, developing and scientifically validating diagnostic and digital technologies, creating expert algorithms and intellectual property, and building the evidence base for its products.
+        ABioGram develops software products, diagnostic technologies, and medical devices for clinical microbiology, antimicrobial susceptibility testing, and antimicrobial resistance data analysis.
 
-        <div class="ak-card-grid">
-          <article><span>01</span><h3>Susceptibility Testing and Diagnostics</h3><p>New approaches to antimicrobial susceptibility testing, diagnostic instruments, and result standardization.</p></article>
-          <article><span>02</span><h3>Expert Interpretation</h3><p>Result categorization, expert rules, antibiogram validation, and standards versioning.</p></article>
-          <article><span>03</span><h3>Quality Assurance</h3><p>Detecting errors and inconsistencies, improving result reproducibility, and building the evidence base for new technologies.</p></article>
-          <article><span>04</span><h3>Data Integration</h3><p>Integration with laboratory and health information systems, analyzers, and digital infrastructure.</p></article>
-          <article><span>05</span><h3>Resistance Analytics</h3><p>Surveillance, phenotypic analysis, and trend monitoring for healthcare organizations and health systems.</p></article>
+        <div class="ak-card-grid ak-project-direction-grid">
+          <article><span>01</span><h3>Diagnostics and Susceptibility Testing</h3><p>Antimicrobial susceptibility testing methods, diagnostic technologies, laboratory equipment, and result standardization.</p></article>
+          <article><span>02</span><h3>Expert Interpretation and Quality Assurance</h3><p>Result categorization, antibiogram review, expert rules, and detection of unusual or inconsistent findings.</p></article>
+          <article><span>03</span><h3>Data Integration and Analytics</h3><p>Analysis of local microbiology data, integration with laboratory and hospital information systems and laboratory instruments, and resistance analytics.</p></article>
+          <article><span>04</span><h3>Research and Development</h3><p>Development and scientific validation of diagnostic, digital, and other medical technologies in infection management and antimicrobial therapy.</p></article>
         </div>
 
-        {{< button url="https://abiogram.ru/" text="Visit ABioGram" icon="arrow-top-right-on-square" new_tab="true" />}}
+        <div class="ak-project-logic"><strong>From a laboratory result to a clinical decision</strong><span>Microbiology result → Susceptibility testing → Expert interpretation → Resistance analysis → Treatment selection</span></div>
+
+        {{< button url="https://abiogram.ru/" text="ABioGram Website" icon="arrow-top-right-on-square" new_tab="true" />}}
     design: {columns: '1'}
 
   - block: markdown
     id: amrhub
     content:
       title: AMRhub
-      subtitle: Research · Education · Community
+      subtitle: Digital Tools, Education, and Science Communication
       text: |-
         **Founder · Ecosystem Architect**
 
-        AMRhub is an open ecosystem of projects focused on antimicrobial therapy and antimicrobial resistance. It brings together research, professional guidance, digital tools, education, and a professional community.
+        AMRhub brings together projects in antimicrobial therapy, antimicrobial resistance, data analysis, genomics, and professional education.
 
-        **200,000+** product users in 2025 · **300+** connected healthcare organizations · **3,000+** students and residents trained
-
-        <div class="ak-card-grid">
-          <article><span>01</span><h3>Data Monitoring and Analysis</h3><p>Digital tools for antimicrobial resistance surveillance and microbiology data analysis.</p></article>
-          <article><span>02</span><h3>Professional Education</h3><p>Initiatives and resources for physicians, microbiologists, clinical pharmacologists, students, and residents.</p></article>
-          <article><span>03</span><h3>Open Research Tools</h3><p>Open-access tools that support research, data analysis, and clinical practice.</p></article>
-          <article><span>04</span><h3>Science Communication and Community</h3><p>Knowledge sharing, professional guidance, and stronger connections among specialists and organizations.</p></article>
+        <div class="ak-project-clusters">
+          <article><span>DATA AND SURVEILLANCE</span><h3>AMRmap · AMRcloud · AMCmodel · AMRmodel · CityMap</h3><p>Collection, analysis, and visualization of antimicrobial resistance data, along with modeling of epidemiological processes and antimicrobial consumption.</p></article>
+          <article><span>THERAPY AND EXPERT SOLUTIONS</span><h3>AMRbook · AMRnote · AMRexpert</h3><p>Reference information, antimicrobial therapy protocols, and expert interpretation of antibiograms.</p></article>
+          <article><span>GENOMICS AND REGISTRIES</span><h3>AMRseq · AMRcf</h3><p>Bacterial genome analysis, identification of resistance determinants, and surveillance of respiratory microbiota in patients with cystic fibrosis.</p></article>
+          <article><span>SCIENCE COMMUNICATION</span><h3>MicrobioNames · AMRfilms · AMRwomen · AMRpaint · AMRsticker</h3><p>The history of microbiology, science outreach, and professional communication.</p></article>
+          <article><span>EDUCATIONAL FORMATS</span><h3>AMRgame · Drugs-vs-Bugs</h3><p>Game-based learning about antibiotics, microorganisms, rational therapy, and the development of resistance.</p></article>
         </div>
 
-        {{< button url="https://amrhub.ru/" text="Visit AMRhub" icon="arrow-top-right-on-square" new_tab="true" />}}
+        <div class="ak-project-metrics">
+          <div><strong>200,000+</strong><span>unique users of the ecosystem's products in 2025</span></div>
+          <div><strong>300+</strong><span>healthcare organizations connected to its platforms</span></div>
+        </div>
+
+        <p class="ak-project-note">Figures are based on internal AMRhub ecosystem analytics for 2025.</p>
+
+        {{< button url="https://amrhub.ru/" text="AMRhub Website" icon="arrow-top-right-on-square" new_tab="true" />}}
+    design: {columns: '1'}
+
+  - block: markdown
+    id: education
+    content:
+      title: Educational Projects
+      subtitle: Antimicrobial therapy, clinical microbiology, biomedical data, and artificial intelligence
+      text: |-
+        <div class="ak-card-grid ak-education-projects">
+          <article>
+            <span>MEDICAL EDUCATION</span>
+            <h3>Antimicrobial Therapy and Clinical Microbiology</h3>
+            <p>Educational resources and programs covering antibiogram interpretation, rational antimicrobial therapy, and resistance surveillance. Designed for physicians, microbiologists, clinical pharmacologists, medical students, and residents.</p>
+          </article>
+          <article>
+            <span>DATA AND ARTIFICIAL INTELLIGENCE</span>
+            <h3>Data Science in Medicine</h3>
+            <p>A course and continuing professional education programs in statistics, biomedical data analysis, machine learning, study design, and the application of AI in medicine.</p>
+          </article>
+          <article>
+            <span>BOOKS AND METHODOLOGICAL FOUNDATIONS</span>
+            <h3>Publications and Practical Guides</h3>
+            <p>The research and education portfolio includes more than 100 publications, including articles, textbooks, and practical guides. Key titles include Data Science and Artificial Intelligence in Medicine, The Antibiogram, and the guide to antimicrobial resistance surveillance using AMRcloud.</p>
+          </article>
+        </div>
+
+        <div class="ak-education-metric"><strong>3,000+</strong><span>students and residents completed Data Science and AI in Medicine programs in 2023–2026</span></div>
     design: {columns: '1'}
 ---

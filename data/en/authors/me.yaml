@@ -2,14 +2,14 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Alexey Kuzmenkov
-  given: Alexey
+  display: Alexey Yuryevich Kuzmenkov
+  given: Alexey Yuryevich
   family: Kuzmenkov
 postnominals: [MD, PhD, DSc]
-role: Physician-Scientist · Scientific Founder · Medical Technology
+role: Physician-Scientist · Science Entrepreneur · R&D Leader
 bio: |
-  Physician-scientist, Professor, and scientific entrepreneur working at the intersection of
-  clinical pharmacology, microbiology, antimicrobial resistance, and medical technology.
+  Physician-scientist, Doctor of Medical Sciences, Professor, and science entrepreneur working at
+  the intersection of clinical pharmacology, microbiology, antimicrobial resistance, and medical technology.
 affiliations:
   - name: Institute of Antimicrobial Chemotherapy
   - name: Smolensk State Medical University
@@ -22,35 +22,13 @@ interests:
   - Microbiology and Antimicrobial Resistance
   - Antimicrobial Susceptibility Testing
   - Diagnostic Technologies
-  - Biomedical Data Science and Digital Health
-experience:
-  - role: Co-Founder and Chief Science and Innovation Officer
-    org: ABioGram
-    start: 2024-01-01
-  - role: Deputy Director for Strategic Development
-    org: Institute of Antimicrobial Chemotherapy, Smolensk State Medical University
-    start: 2019-01-01
-  - role: Professor of Microbiology
-    org: Smolensk State Medical University
-    start: 2023-01-01
-  - role: Head of the Priority 2030 Programme Office
-    org: Smolensk State Medical University
-    start: 2023-01-01
-    end: 2024-12-31
-  - role: Associate Professor of Microbiology
-    org: Smolensk State Medical University
-    start: 2020-01-01
-    end: 2023-12-31
-  - role: Research Coordinator and Researcher
-    org: Interregional Association for Clinical Microbiology and Antimicrobial Chemotherapy
-    start: 2017-01-01
-    end: 2019-12-31
+  - Biomedical Data Analysis and Digital Health Technology
 education:
   - degree: Master of Business Administration (MBA)
     institution: Institute of Business Studies, RANEPA
     start: 2024-01-01
     end: 2026-12-31
-  - degree: Professional Diploma in Project Management
+  - degree: Professional Retraining in Project Management
     institution: HSE University
     start: 2024-01-01
     end: 2025-12-31
@@ -58,7 +36,7 @@ education:
     institution: Smolensk State Medical University
     start: 2020-01-01
     end: 2022-12-31
-  - degree: Professional Diploma in Information Systems and Programming
+  - degree: Professional Retraining in Information Systems and Programming
     institution: Plekhanov Russian University of Economics
     start: 2022-01-01
     end: 2022-12-31
@@ -70,10 +48,71 @@ education:
     institution: Smolensk State Medical University
     start: 2015-01-01
     end: 2017-12-31
-  - degree: Medical Degree with Honours
+  - degree: Medical Degree with Honors
     institution: Smolensk State Medical University
     start: 2009-01-01
     end: 2015-12-31
+experience:
+  - role: Co-Founder and Chief Science and Innovation Officer
+    org: ABioGram
+    start: 2023-01-01
+    summary: |
+      Scientific, technological, and innovation strategy; R&D portfolio development; development and
+      scientific validation of diagnostic and digital technologies; expert algorithms, intellectual
+      property, and product evidence base.
+  - role: Deputy Director for Strategic Development
+    org: Institute of Antimicrobial Chemotherapy, Smolensk State Medical University
+    start: 2019-01-01
+    summary: |
+      Strategic and operational R&D management; development at the intersection of healthcare and
+      information technology; leadership of research, software, and engineering teams; development
+      of digital products, scientific publications, and clinical and methodological guidance for the Russian Ministry of Health.
+    button:
+      text: AMRhub Ecosystem
+      url: https://amrhub.ru/
+      icon: hero/arrow-top-right-on-square
+  - role: Professor of Microbiology
+    org: Smolensk State Medical University
+    start: 2023-01-01
+    summary: |
+      Teaching in Russian and English, developing educational and methodological resources,
+      supervising research, and contributing to academic programs.
+  - role: Head of the Priority 2030 Program Office
+    org: Smolensk State Medical University
+    start: 2023-01-01
+    end: 2024-12-31
+    summary: |
+      Management of the university's strategic project portfolio, coordination of more than 200 participants,
+      and implementation of project management methods and regulations.
+  - role: Associate Professor of Microbiology
+    org: Smolensk State Medical University
+    start: 2020-01-01
+    end: 2023-12-31
+    summary: Teaching classes and lectures in English for international students.
+  - role: Research Coordinator and Researcher
+    org: Interregional Association for Clinical Microbiology and Antimicrobial Chemotherapy
+    start: 2017-01-01
+    end: 2019-12-31
+    summary: |
+      Biomedical study design, protocol and analysis plan development, data analysis,
+      and preparation of scientific publications.
+skills:
+  - name: Scientific and Medical Expertise
+    items:
+      - {label: Antimicrobial Resistance and Therapy, level: 5}
+      - {label: Clinical Pharmacology and Microbiology, level: 5}
+      - {label: Biomedical Study Design, level: 5}
+  - name: Data and Digital Products
+    items:
+      - {label: Biomedical Data Analysis, level: 5}
+      - {label: R and Machine Learning, level: 5}
+      - {label: Analytical Web Services, level: 5}
+      - {label: LIS, HIS, and Equipment Integration, level: 4}
+  - name: Leadership and Communication
+    items:
+      - {label: R&D and Digital Product Leadership, level: 5}
+      - {label: Multidisciplinary Team Leadership, level: 5}
+      - {label: Teaching and Public Speaking, level: 5}
 languages:
   - {name: Russian, level: 5, label: Native}
-  - {name: English, level: 4, label: Professional working proficiency}
+  - {name: English, level: 4, label: Fluent – lectures, presentations, and scientific writing}

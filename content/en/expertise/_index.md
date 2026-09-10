@@ -28,18 +28,18 @@ sections:
           <article>
             <div class="ak-card-icon">{{< icon name="shield-check" >}}</div>
             <h3>Antimicrobial Resistance</h3>
-            <p>The epidemiology and mechanisms of antimicrobial resistance, resistance surveillance, risk-factor assessment, and containment strategies.</p>
+            <p>Epidemiology and mechanisms of resistance, surveillance, risk-factor assessment, and strategies to contain its spread.</p>
           </article>
           <article>
             <div class="ak-card-icon">{{< icon name="eye-dropper" >}}</div>
             <h3>Antimicrobial Susceptibility Testing</h3>
-            <p>Susceptibility testing methods, laboratory quality assurance, and the interpretation of antibiograms for clinical decision-making.</p>
+            <p>Susceptibility testing methods, antibiogram interpretation, quality assurance, and application of results to clinical decisions.</p>
           </article>
           </div>
         </section>
 
         <section class="ak-expertise-group ak-expertise-group--capabilities">
-          <header class="ak-expertise-group__header"><span>02</span><h2>Cross-Functional Capabilities</h2></header>
+          <header class="ak-expertise-group__header"><span>02</span><h2>Strategic and Cross-Functional Capabilities</h2></header>
           <div class="ak-card-grid ak-expertise-grid">
           <article>
             <div class="ak-card-icon">{{< icon name="wrench-screwdriver" >}}</div>
@@ -60,6 +60,16 @@ sections:
             <div class="ak-card-icon">{{< icon name="rocket-launch" >}}</div>
             <h3>Evidence and Implementation</h3>
             <p>Assessing clinical and economic value, validating solutions, building evidence, and preparing technologies for practical implementation.</p>
+          </article>
+          <article>
+            <div class="ak-card-icon">{{< icon name="chart-bar" >}}</div>
+            <h3>Economic Evaluation</h3>
+            <p>Pharmacoeconomic models, assessment of the consequences of diagnostic decisions, and demonstration of their value for healthcare organizations and systems.</p>
+          </article>
+          <article>
+            <div class="ak-card-icon">{{< icon name="users" >}}</div>
+            <h3>R&amp;D Strategy and Teams</h3>
+            <p>Development portfolio planning, multidisciplinary team leadership, and coordination of researchers, developers, and engineers.</p>
           </article>
           </div>
         </section>

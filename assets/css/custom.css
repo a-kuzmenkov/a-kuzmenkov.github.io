@@ -860,22 +860,6 @@ html[lang="en"] #about-resume .flex.flex-col > div:first-child .space-y-8 > .gro
 .ak-ecosystem-branch strong { margin-top: auto; color: var(--ak-ink); font-size: .78rem; }
 .ak-ecosystem-branch a { margin-top: 1rem; font-size: .86rem; font-weight: 700; }
 
-.ak-ecosystem-flow {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: .55rem;
-  padding: 1rem 1.2rem;
-  border: 1px solid var(--ak-line);
-  border-radius: 16px;
-  background: #fff;
-  color: var(--ak-ink);
-  font-size: .82rem;
-  font-weight: 680;
-}
-
-.ak-ecosystem-flow b { color: var(--ak-teal); }
 .ak-project-direction-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 
 .ak-project-logic {
@@ -991,8 +975,6 @@ html[lang="en"] #about-resume .flex.flex-col > div:first-child .space-y-8 > .gro
   .ak-project-metrics,
   .ak-ecosystem-result { grid-template-columns: 1fr; }
   .ak-project-clusters article:first-child { grid-column: auto; }
-  .ak-ecosystem-flow b { display: none; }
-  .ak-ecosystem-flow span { width: 100%; text-align: center; }
   .ak-education-metric { align-items: flex-start; flex-direction: column; gap: .3rem; }
 }
 
