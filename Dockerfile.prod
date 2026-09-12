@@ -39,7 +39,7 @@ COPY . .
 # Build the Hugo site for production with debug output to see what's happening
 ENV HUGO_ENVIRONMENT=production
 RUN echo "Starting Hugo build..." && \
-    hugo --minify --baseURL "https://a-kuzmenkov.github.io" || echo "Hugo build completed with warnings"
+    hugo --minify --baseURL "https://a-kuzmenkov.ru" || echo "Hugo build completed with warnings"
 
 # Production stage - minimal nginx container
 FROM nginx:alpine

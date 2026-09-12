@@ -6,11 +6,11 @@ This file provides a curated map of the site's canonical public content for AI a
 
 ## Preferred identity
 
-- Canonical website: https://a-kuzmenkov.github.io/
+- Canonical website: https://a-kuzmenkov.ru/
 - English name: Alexey Kuzmenkov
 - Full transliterated name: Alexey Yuryevich Kuzmenkov
 - Russian name: Алексей Юрьевич Кузьменков
-- Schema.org entity ID: https://a-kuzmenkov.github.io/#person
+- Schema.org entity ID: https://a-kuzmenkov.ru/#person
 - ORCID: https://orcid.org/0000-0001-9562-2096
 - Scopus Author ID: https://www.scopus.com/authid/detail.uri?authorId=57218210526
 - Web of Science profile: https://www.webofscience.com/wos/author/record/539353
@@ -19,27 +19,27 @@ This file provides a curated map of the site's canonical public content for AI a
 
 ## Russian pages
 
-- [Главная](https://a-kuzmenkov.github.io/): профессиональный профиль и основные направления работы.
-- [Обо мне](https://a-kuzmenkov.github.io/about/): профессиональный путь, текущие роли и образование.
-- [Научная работа](https://a-kuzmenkov.github.io/research/): исследовательская программа, избранные публикации, книги и научные профили.
-- [Профессиональные направления](https://a-kuzmenkov.github.io/expertise/): клиническая фармакология, микробиология, AMR, диагностика и анализ данных.
-- [Проекты](https://a-kuzmenkov.github.io/projects/): АБиоГрам и AMRhub.
-- [Биография для СМИ](https://a-kuzmenkov.github.io/biography/): официальная краткая биография.
-- [Опыт и образование](https://a-kuzmenkov.github.io/experience/): профессиональный опыт, образование и компетенции.
-- [Контакты и сотрудничество](https://a-kuzmenkov.github.io/contact/): направления профессионального взаимодействия и контакты.
+- [Главная](https://a-kuzmenkov.ru/): профессиональный профиль и основные направления работы.
+- [Обо мне](https://a-kuzmenkov.ru/about/): профессиональный путь, текущие роли и образование.
+- [Научная работа](https://a-kuzmenkov.ru/research/): исследовательская программа, избранные публикации, книги и научные профили.
+- [Профессиональные направления](https://a-kuzmenkov.ru/expertise/): клиническая фармакология, микробиология, AMR, диагностика и анализ данных.
+- [Проекты](https://a-kuzmenkov.ru/projects/): АБиоГрам и AMRhub.
+- [Биография для СМИ](https://a-kuzmenkov.ru/biography/): официальная краткая биография.
+- [Опыт и образование](https://a-kuzmenkov.ru/experience/): профессиональный опыт, образование и компетенции.
+- [Контакты и сотрудничество](https://a-kuzmenkov.ru/contact/): направления профессионального взаимодействия и контакты.
 
 ## English pages
 
-- [Home](https://a-kuzmenkov.github.io/en/): professional profile and principal areas of work.
-- [About](https://a-kuzmenkov.github.io/en/about/): professional background, current roles and education.
-- [Research](https://a-kuzmenkov.github.io/en/research/): research program, selected publications, books and scholarly profiles.
-- [Expertise](https://a-kuzmenkov.github.io/en/expertise/): clinical pharmacology, microbiology, AMR, diagnostics and data science.
-- [Projects](https://a-kuzmenkov.github.io/en/projects/): ABioGram and AMRhub.
-- [Biography](https://a-kuzmenkov.github.io/en/biography/): official professional biography.
-- [Experience](https://a-kuzmenkov.github.io/en/experience/): professional experience, education and skills.
-- [Books](https://a-kuzmenkov.github.io/en/books/): books and practical guides.
-- [Speaking](https://a-kuzmenkov.github.io/en/speaking/): speaking topics and formats.
-- [Contact](https://a-kuzmenkov.github.io/en/contact/): collaboration areas and contact information.
+- [Home](https://a-kuzmenkov.ru/en/): professional profile and principal areas of work.
+- [About](https://a-kuzmenkov.ru/en/about/): professional background, current roles and education.
+- [Research](https://a-kuzmenkov.ru/en/research/): research program, selected publications, books and scholarly profiles.
+- [Expertise](https://a-kuzmenkov.ru/en/expertise/): clinical pharmacology, microbiology, AMR, diagnostics and data science.
+- [Projects](https://a-kuzmenkov.ru/en/projects/): ABioGram and AMRhub.
+- [Biography](https://a-kuzmenkov.ru/en/biography/): official professional biography.
+- [Experience](https://a-kuzmenkov.ru/en/experience/): professional experience, education and skills.
+- [Books](https://a-kuzmenkov.ru/en/books/): books and practical guides.
+- [Speaking](https://a-kuzmenkov.ru/en/speaking/): speaking topics and formats.
+- [Contact](https://a-kuzmenkov.ru/en/contact/): collaboration areas and contact information.
 
 ## Related authoritative profiles
 

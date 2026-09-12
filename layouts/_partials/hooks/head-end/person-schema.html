@@ -1,6 +1,6 @@
 {{- if .IsHome -}}
   {{- $isRussian := eq .Language.Lang "ru" -}}
-  {{- $siteURL := "https://a-kuzmenkov.github.io/" -}}
+  {{- $siteURL := "https://a-kuzmenkov.ru/" -}}
   {{- $personID := printf "%s#person" $siteURL -}}
   {{- $profileID := printf "%s#profile" .Permalink -}}
   {{- $description := cond $isRussian "Врач-исследователь, доктор медицинских наук, профессор и научный предприниматель в области клинической фармакологии, микробиологии, антимикробной резистентности и медицинских технологий." "Physician-scientist, Professor and scientific entrepreneur working in clinical pharmacology, microbiology, antimicrobial resistance and medical technology." -}}
