@@ -890,8 +890,31 @@ html[lang="en"] #about-resume .flex.flex-col > div:first-child .space-y-8 > .gro
 
 .ak-project-clusters article:first-child { grid-column: 1 / -1; }
 .ak-project-clusters article > span { color: #465ecf; }
-.ak-project-clusters h3 { margin: .6rem 0 !important; padding: 0 !important; border: 0 !important; font-size: 1rem !important; }
-.ak-project-clusters p { margin: 0 !important; font-size: .9rem; }
+.ak-project-clusters h3 {
+  margin: 0 0 .55rem !important;
+  padding: 0 !important;
+  border: 0 !important;
+  color: #3449ad;
+  font-size: 1.05rem !important;
+}
+
+.ak-project-clusters p { margin: 0 !important; }
+
+.ak-project-cluster-purpose {
+  color: var(--ak-text);
+  font-size: .94rem;
+  line-height: 1.55;
+}
+
+.ak-project-cluster-products {
+  margin-top: .85rem !important;
+  padding-top: .7rem;
+  border-top: 1px solid #e7e9f8;
+  color: var(--ak-muted);
+  font-size: .82rem;
+  font-weight: 650;
+  letter-spacing: .015em;
+}
 
 .ak-project-metrics {
   display: grid;
@@ -920,6 +943,22 @@ html[lang="en"] #about-resume .flex.flex-col > div:first-child .space-y-8 > .gro
 }
 
 .ak-education-projects article { min-height: 260px; }
+
+.hbb-section .prose a.ak-project-card-link:not([href^="http"]):not([href^="mailto"]):not([href^="#"]) {
+  margin: .85rem 0 0;
+  padding: .42rem .68rem;
+  border: 1px solid rgba(8, 127, 117, .24);
+  background: transparent;
+  color: var(--ak-teal-dark);
+  font-size: .78rem;
+  box-shadow: none;
+}
+
+.hbb-section .prose a.ak-project-card-link:not([href^="http"]):not([href^="mailto"]):not([href^="#"]):hover {
+  transform: translateY(-1px);
+  background: #edf8f6;
+  box-shadow: none;
+}
 
 .ak-education-metric {
   display: flex;

@@ -24,7 +24,7 @@ sections:
       title: Official Inquiries
       text: |-
         <div class="ak-contact-address">
-          <a href="mailto:kuzmenkov111@mail.ru">kuzmenkov111@mail.ru</a>
+          <a href="mailto:ay.kuzmenkov@yandex.ru">ay.kuzmenkov@yandex.ru</a>
         </div>
     design: {columns: '1'}
 ---
