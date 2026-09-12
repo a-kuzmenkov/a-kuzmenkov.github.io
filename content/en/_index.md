@@ -1,21 +1,19 @@
 ---
-title: 'Alexey Kuzmenkov: Physician-Scientist, Science Entrepreneur, and R&D Leader'
-summary: 'Physician-scientist, Doctor of Medical Sciences, MBA, co-founder of ABioGram, and founder of AMRhub.'
+title: 'Alexey Kuzmenkov: Physician, Researcher, and R&D Leader in Medical Technology'
+summary: 'Physician, researcher, Doctor of Medical Sciences, MBA, co-founder of ABioGram, and founder of AMRhub.'
 date: 2026-08-23
 type: landing
 sections:
   - block: markdown
     id: home
     content:
-      title: Physician-Scientist · Science Entrepreneur · R&D Leader
+      title: Physician · Researcher · R&D Leader in Medical Technology
       text: |-
         # Alexey Kuzmenkov
 
-        <p class="ak-hero-expertise">Medical Technology · Clinical Research · Data and Artificial Intelligence · Clinical Pharmacology and Antimicrobial Therapy</p>
+        <p class="ak-hero-expertise">Research, medical technology, and professional ecosystems in diagnostics, antimicrobial therapy, and data analytics</p>
 
-        Doctor of Medical Sciences (DSc), MBA. Co-founder of **ABioGram** and founder of **AMRhub**.
-
-        Developing and implementing medical solutions grounded in research, data, and clinical expertise.
+        Doctor of Medical Sciences (DSc), MBA. Co-founder of **ABioGram**, founder of **AMRhub**.
 
         [Project Ecosystem](projects/) · [Research](research/)
     design:
@@ -26,7 +24,7 @@ sections:
   - block: markdown
     id: trajectory
     content:
-      title: Areas of Expertise and Practice
+      title: Areas of Professional Activity
       text: |-
         <div class="ak-trajectory-grid">
           <article>

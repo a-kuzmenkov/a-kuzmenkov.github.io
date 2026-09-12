@@ -1,6 +1,6 @@
 ---
 title: Project Ecosystem
-summary: Medical technologies, digital platforms, research initiatives, and educational programs developed by Alexey Kuzmenkov.
+summary: Medical technologies, digital products, research initiatives, and educational projects developed by Alexey Kuzmenkov.
 type: landing
 sections:
   - block: markdown
@@ -11,7 +11,7 @@ sections:
       text: |-
         # Project Ecosystem
 
-        Medical technologies, digital platforms, research initiatives, and educational programs built on a shared scientific and clinical foundation.
+        Medical technologies, digital products, research initiatives, and educational projects spanning the full pathway from research to practical implementation.
 
         <div class="ak-ecosystem-overview">
           <article class="ak-ecosystem-branch ak-ecosystem-branch--abio">
@@ -24,7 +24,7 @@ sections:
           <article class="ak-ecosystem-branch ak-ecosystem-branch--amr">
             <span>RESEARCH AND COMMUNITY</span>
             <h2>AMRhub</h2>
-            <p>An open science and education ecosystem focused on antimicrobial therapy and antimicrobial resistance.</p>
+            <p>A public science and education ecosystem focused on antimicrobial therapy and antimicrobial resistance.</p>
             <strong>Founder · Ecosystem Architect</strong>
             <a href="#amrhub">Explore the projects ↓</a>
           </article>
@@ -70,11 +70,31 @@ sections:
         AMRhub brings together projects in antimicrobial therapy, antimicrobial resistance, data analysis, genomics, and professional education.
 
         <div class="ak-project-clusters">
-          <article><span>DATA AND SURVEILLANCE</span><h3>AMRmap · AMRcloud · AMCmodel · AMRmodel · CityMap</h3><p>Collection, analysis, and visualization of antimicrobial resistance data, along with modeling of epidemiological processes and antimicrobial consumption.</p></article>
-          <article><span>THERAPY AND EXPERT SOLUTIONS</span><h3>AMRbook · AMRnote · AMRexpert</h3><p>Reference information, antimicrobial therapy protocols, and expert interpretation of antibiograms.</p></article>
-          <article><span>GENOMICS AND REGISTRIES</span><h3>AMRseq · AMRcf</h3><p>Bacterial genome analysis, identification of resistance determinants, and surveillance of respiratory microbiota in patients with cystic fibrosis.</p></article>
-          <article><span>SCIENCE COMMUNICATION</span><h3>MicrobioNames · AMRfilms · AMRwomen · AMRpaint · AMRsticker</h3><p>The history of microbiology, science outreach, and professional communication.</p></article>
-          <article><span>EDUCATIONAL FORMATS</span><h3>AMRgame · Drugs-vs-Bugs</h3><p>Game-based learning about antibiotics, microorganisms, rational therapy, and the development of resistance.</p></article>
+          <article>
+            <h3>Data and Surveillance</h3>
+            <p class="ak-project-cluster-purpose"><em>National and local AMR surveillance systems, modeling, and analytics</em></p>
+            <p class="ak-project-cluster-products">AMRmap · AMRcloud · AMCmodel · AMRmodel · CityMap</p>
+          </article>
+          <article>
+            <h3>Therapy and Expert Solutions</h3>
+            <p class="ak-project-cluster-purpose"><em>Reference information, antimicrobial therapy protocols, and expert interpretation of antibiograms</em></p>
+            <p class="ak-project-cluster-products">AMRbook · AMRnote · AMRexpert</p>
+          </article>
+          <article>
+            <h3>Genomics and Registries</h3>
+            <p class="ak-project-cluster-purpose"><em>Bacterial genome analysis, identification of resistance determinants, and surveillance of respiratory microbiota in patients with cystic fibrosis</em></p>
+            <p class="ak-project-cluster-products">AMRseq · AMRcf</p>
+          </article>
+          <article>
+            <h3>Science Communication</h3>
+            <p class="ak-project-cluster-purpose"><em>The history of microbiology, science outreach, and professional communication</em></p>
+            <p class="ak-project-cluster-products">MicrobioNames · AMRfilms · AMRwomen · AMRpaint · AMRsticker</p>
+          </article>
+          <article>
+            <h3>Educational Formats</h3>
+            <p class="ak-project-cluster-purpose"><em>Game-based learning about antibiotics, microorganisms, rational therapy, and the development of resistance</em></p>
+            <p class="ak-project-cluster-products">AMRgame · Drugs-vs-Bugs</p>
+          </article>
         </div>
 
         <div class="ak-project-metrics">
@@ -105,9 +125,10 @@ sections:
             <p>A course and continuing professional education programs in statistics, biomedical data analysis, machine learning, study design, and the application of AI in medicine.</p>
           </article>
           <article>
-            <span>BOOKS AND METHODOLOGICAL FOUNDATIONS</span>
-            <h3>Publications and Practical Guides</h3>
-            <p>The research and education portfolio includes more than 100 publications, including articles, textbooks, and practical guides. Key titles include Data Science and Artificial Intelligence in Medicine, The Antibiogram, and the guide to antimicrobial resistance surveillance using AMRcloud.</p>
+            <span>PUBLICATIONS AND BOOKS</span>
+            <h3>Books and Guides</h3>
+            <p>Author and co-author of scientific publications, practical guides, and foundational works on microbiology, antimicrobial therapy, and Data Science in medicine.</p>
+            <p><a class="ak-project-card-link" href="../research/">Learn more → Research</a></p>
           </article>
         </div>
 

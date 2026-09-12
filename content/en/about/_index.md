@@ -13,31 +13,33 @@ sections:
 
         **Science · Medicine · Technology**
 
-        I am a physician-scientist, Doctor of Medical Sciences, and science entrepreneur working across **clinical pharmacology, microbiology, antimicrobial resistance, and medical technology**.
+        I am a physician and researcher with a Doctor of Medical Sciences degree and an MBA, specializing in the development of medical technologies. My work spans **clinical pharmacology, microbiology, antimicrobial resistance, data analysis, and artificial intelligence in medicine**.
 
-        Today, I combine three professional roles: shaping scientific and technological strategy at **ABioGram**, leading strategic development at the **Institute of Antimicrobial Chemotherapy**, and teaching microbiology at **Smolensk State Medical University**.
+        My primary professional focus is developing solutions through the full pathway from a clinical need and scientific hypothesis to evidence generation, digital products, diagnostic and therapeutic technologies, and practical implementation. This work brings together research, leadership of multidisciplinary teams, and the development of healthcare and educational ecosystems.
+
+        Today, this work spans several areas: scientific and technological strategy at **ABioGram**, strategic development at the **Institute of Antimicrobial Chemotherapy**, teaching at **Smolensk State Medical University**, and development of the **AMRhub** ecosystem.
     design: {columns: '1'}
   - block: markdown
     id: about-now
     content:
-      title: How I Develop Medical Solutions
+      title: From Research to a Medical Solution
       text: |-
         <div class="ak-card-grid ak-about-grid ak-about-grid--current">
-          <article><span>ARCHITECTURE</span><h3>Connecting the Elements</h3><p>I bring clinical needs, research, data, products, and evidence together in a coherent development program.</p></article>
-          <article><span>R&amp;D</span><h3>Developing and Validating</h3><p>I lead the development and scientific validation of diagnostic technologies, expert algorithms, and digital services.</p></article>
-          <article><span>IMPLEMENTATION</span><h3>Translating into Practice</h3><p>I build the evidence base and develop the teams and educational programs needed for practical implementation.</p></article>
+          <article><span>ARCHITECTURE</span><h3>An Integrated Development Program</h3><p>Clinical needs, research, data, products, and evidence are brought together in an integrated development program.</p></article>
+          <article><span>R&amp;D</span><h3>Development and Validation</h3><p>Leading the development and scientific validation of diagnostic technologies, expert algorithms, and digital services.</p></article>
+          <article><span>IMPLEMENTATION</span><h3>Practical Application</h3><p>Building the evidence base, developing teams, and creating educational programs to support the implementation of medical solutions.</p></article>
         </div>
     design: {columns: '1'}
   - block: markdown
     id: about-initiatives
     content:
-      title: Where I Work and What I Develop
+      title: Professional Roles and Projects
       text: |-
         <div class="ak-card-grid ak-about-grid ak-about-grid--organisations">
           <article><span>COMPANY</span><h3>ABioGram</h3><p>Co-founder and Chief Science and Innovation Officer. Responsible for scientific and technological strategy, R&D, new products, and their evidence base.</p><p><a href="../projects/#abiogram">Learn more →</a></p></article>
-          <article><span>ECOSYSTEM</span><h3>AMRhub</h3><p>Founder of an open science and education ecosystem focused on antimicrobial therapy and resistance.</p><p><a href="../projects/#amrhub">Learn more →</a></p></article>
-          <article><span>RESEARCH INSTITUTE</span><h3>Institute of Antimicrobial Chemotherapy</h3><p>I lead strategic development at the intersection of healthcare, research, and information technology.</p></article>
-          <article><span>UNIVERSITY</span><h3>Smolensk State Medical University</h3><p>I am a Professor of Microbiology, teach, and contribute to research and educational programs.</p></article>
+          <article><span>ECOSYSTEM</span><h3>AMRhub</h3><p>Founder of a public science and education ecosystem focused on antimicrobial therapy and resistance.</p><p><a href="../projects/#amrhub">Learn more →</a></p></article>
+          <article><span>RESEARCH INSTITUTE</span><h3>Institute of Antimicrobial Chemotherapy</h3><p>Deputy Director for Strategic Development. Strategic and operational leadership of R&D at the intersection of healthcare, research, and information technology.</p></article>
+          <article><span>UNIVERSITY</span><h3>Smolensk State Medical University</h3><p>Professor of Microbiology. Teaching and contributing to the development of research and educational programs.</p></article>
         </div>
     design: {columns: '1'}
   - block: resume-experience

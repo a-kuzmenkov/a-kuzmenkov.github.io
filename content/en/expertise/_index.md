@@ -16,17 +16,17 @@ sections:
           <header class="ak-expertise-group__header"><span>01</span><h2>Domain Expertise</h2></header>
           <div class="ak-card-grid ak-expertise-grid">
           <article>
-            <div class="ak-card-icon">{{< icon name="heart" >}}</div>
+            <div class="ak-card-icon">{{< icon name="custom/pill" >}}</div>
             <h3>Clinical Pharmacology and Antimicrobial Therapy</h3>
             <p>Selecting and optimizing antimicrobial therapy based on the causative pathogen, site of infection, drug properties, and patient-specific factors.</p>
           </article>
           <article>
-            <div class="ak-card-icon">{{< icon name="bug-ant" >}}</div>
+            <div class="ak-card-icon">{{< icon name="beaker" >}}</div>
             <h3>Clinical Microbiology</h3>
             <p>Laboratory diagnosis of infections, pathogen identification, interpretation of findings, and their connection to the clinical question.</p>
           </article>
           <article>
-            <div class="ak-card-icon">{{< icon name="shield-check" >}}</div>
+            <div class="ak-card-icon">{{< icon name="shield-exclamation" >}}</div>
             <h3>Antimicrobial Resistance</h3>
             <p>Epidemiology and mechanisms of resistance, surveillance, risk-factor assessment, and strategies to contain its spread.</p>
           </article>
