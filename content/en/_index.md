@@ -7,15 +7,15 @@ sections:
   - block: markdown
     id: home
     content:
-      title: Physician · Researcher · R&D Leader in Medical Technology
+      title: Scientist and Medical Technology Innovator
       text: |-
-        # Alexey Kuzmenkov
+        # Alexey Yuryevich Kuzmenkov
 
-        <p class="ak-hero-expertise">Research, medical technology, and professional ecosystems in diagnostics, antimicrobial therapy, and data analytics</p>
+        **Doctor of Medical Sciences, Professor**
 
-        Doctor of Medical Sciences (DSc), MBA. Co-founder of **ABioGram**, founder of **AMRhub**.
+        Research and development in diagnostics and therapeutics, from building the scientific evidence for new approaches to implementing them in clinical practice.
 
-        [Project Ecosystem](projects/) · [Research](research/)
+        **[Research](research/)** · **[Projects](projects/)**
     design:
       columns: '1'
       background:
