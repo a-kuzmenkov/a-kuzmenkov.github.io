@@ -1,0 +1,8 @@
+User-agent: *
+
+Allow: /llms.txt
+
+# AI/LLM-readable site summary
+# https://a-kuzmenkov.ru/llms.txt
+
+Sitemap: {{ "sitemap.xml" | absURL }}
