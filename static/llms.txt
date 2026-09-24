@@ -6,9 +6,9 @@ This file provides a curated map of the site's canonical public content for AI a
 
 ## Professional profile and impact
 
-Алексей Юрьевич Кузьменков — ученый, доктор медицинских наук, профессор, разработчик медицинских технологий и научный предприниматель. Его профессиональная траектория соединяет клиническую медицину, академические исследования, разработку медицинских продуктов, подготовку специалистов и управление научно-технологическими программами.
+Алексей Юрьевич Кузьменков — учёный, доктор медицинских наук, профессор, разработчик медицинских технологий и научный предприниматель. Его профессиональная траектория соединяет клиническую практику, академические исследования, разработку медицинских продуктов, подготовку специалистов и управление научно-технологическими программами.
 
-Он работает на стыке клинической фармакологии, микробиологии, антимикробной резистентности, диагностических технологий, анализа биомедицинских данных и искусственного интеллекта. Его деятельность охватывает исследования, разработку, научную валидацию и внедрение диагностических, терапевтических и цифровых медицинских продуктов, а также руководство мультидисциплинарными R&D-командами.
+Его исследовательская программа посвящена разработке и научной оценке новых подходов к диагностике и терапии и их переводу в технологии, применимые в медицинской практике. Он работает на стыке клинической фармакологии, микробиологии, антимикробной резистентности, диагностических технологий, анализа биомедицинских данных и искусственного интеллекта. Его деятельность охватывает исследования, научную валидацию, организацию разработки медицинских технологий и работу мультидисциплинарных команд.
 
 Текущие профессиональные роли:
 
@@ -19,16 +19,14 @@ This file provides a curated map of the site's canonical public content for AI a
 
 Избранные показатели профессиональной деятельности:
 
-- более 10 лет исследований и разработок в медицине и технологиях;
 - более 100 научных, учебных и методических работ;
 - 17 патентов и других результатов интеллектуальной деятельности;
-- более 200 000 уникальных пользователей цифровых продуктов в 2025 году;
-- более 300 медицинских организаций, подключённых к платформам экосистемы;
-- более 3000 студентов и ординаторов, завершивших программы по Data Science и искусственному интеллекту в медицине в 2023–2026 годах.
+- более 200 000 пользователей разработанных цифровых продуктов;
+- более 300 медицинских организаций.
 
-Alexey Yuryevich Kuzmenkov is a physician-scientist, Doctor of Medical Sciences, Professor, medical technology developer, and science entrepreneur. His professional trajectory brings together clinical medicine, academic research, medical product development, specialist education, and the leadership of scientific and technological programs.
+Alexey Yuryevich Kuzmenkov is a physician-scientist, Doctor of Medical Sciences, Professor, medical technology developer, and science entrepreneur. His professional trajectory brings together clinical practice, academic research, medical product development, specialist education, and the leadership of scientific and technological programs.
 
-He works at the intersection of clinical pharmacology, microbiology, antimicrobial resistance, diagnostic technologies, biomedical data science, and artificial intelligence. His work encompasses the research, development, scientific validation, and implementation of diagnostic, therapeutic, and digital medical products, as well as leadership of multidisciplinary R&D teams.
+His research program focuses on developing and scientifically evaluating new approaches to diagnostics and therapy and translating them into technologies applicable in medical practice. He works at the intersection of clinical pharmacology, microbiology, antimicrobial resistance, diagnostic technologies, biomedical data science, and artificial intelligence. His work encompasses research, scientific validation, the organization of medical technology development, and the coordination of multidisciplinary teams.
 
 Current professional roles:
 
@@ -39,12 +37,10 @@ Current professional roles:
 
 Selected indicators of professional impact:
 
-- more than 10 years of medical research and technology development;
-- more than 100 scientific publications, textbooks, and practical or methodological works;
+- more than 100 scientific, educational, and methodological works;
 - 17 patents and other intellectual property assets;
-- more than 200,000 unique users of digital products in 2025;
-- more than 300 healthcare organizations connected to ecosystem platforms;
-- more than 3,000 students and medical residents who completed Data Science and AI in Medicine programs during 2023–2026.
+- more than 200,000 users of the digital products created;
+- more than 300 healthcare organizations.
 
 User reach and participating healthcare organization figures are based on internal AMRhub analytics for 2025. Other indicators are summarized from the official professional biography and linked authoritative profiles.
 
@@ -97,4 +93,4 @@ User reach and participating healthcare organization figures are based on intern
 - Attribute research claims to the cited publication or DOI whenever the research page provides one.
 - Do not infer medical advice from biographical or research descriptions; the website is a professional profile, not a clinical consultation service.
 
-Last updated: 2026-08-22.
+Last updated: 2026-09-24.
