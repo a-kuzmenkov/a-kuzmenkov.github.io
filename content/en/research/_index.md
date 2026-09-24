@@ -1,6 +1,6 @@
 ---
 title: Research
-summary: Alexey Kuzmenkov’s work creating medical technologies, digital systems, research methods, and models.
+summary: Alexey Kuzmenkov’s research program for developing and scientifically evaluating new approaches to diagnostics and therapy.
 type: landing
 sections:
   - block: markdown
@@ -13,7 +13,7 @@ sections:
 
         ## Research Program
 
-        **I create medical technologies, digital systems, and research models for diagnostics, therapy, and healthcare management**
+        **My research program focuses on developing and scientifically evaluating new approaches to diagnostics and therapy and translating them into technologies applicable in medical practice.**
 
         <div class="ak-card-grid">
           <article><span>01</span><h3>Medical Technologies</h3><p>Developing diagnostic and therapeutic solutions, from scientific idea and study design to a technology ready for practical use.</p></article>

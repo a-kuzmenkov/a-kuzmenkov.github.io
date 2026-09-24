@@ -765,7 +765,7 @@ html[lang="en"] #about-resume .flex.flex-col > div:first-child .space-y-8 > .gro
 
 .ak-impact-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1px;
   margin-top: 2.25rem;
   overflow: hidden;
@@ -806,7 +806,7 @@ html[lang="en"] #about-resume .flex.flex-col > div:first-child .space-y-8 > .gro
   line-height: 1.55;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .ak-impact-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
